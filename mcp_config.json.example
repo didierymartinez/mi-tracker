@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "notebooklm": {
+            "command": "/Users/TU_USUARIO/Documents/dev_didier/.mcp_venv/bin/notebooklm-mcp",
+            "args": []
+        }
+    }
+}
