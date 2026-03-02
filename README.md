@@ -2,6 +2,9 @@
 
 Este repositorio contiene las herramientas necesarias para mantener mi tracker sincronizado entre dispositivos.
 
+> [!TIP]
+> **Si eres un Agente de IA (Antigravity/Cursor)**: Puedes inicializar este entorno automáticamente ejecutando el workflow `/setup` definido en `.agents/workflows/setup.md`.
+
 ## 🚀 Sync Bookmarklet (Navegador)
 
 Para sincronizar tu progreso desde Platzi, Udemy o Dometrain, usa el siguiente Bookmarklet.
