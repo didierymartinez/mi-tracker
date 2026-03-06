@@ -12,9 +12,11 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
 **Foco:** Terraform State y Configuración de Ecosistema de Estudio.
 
 - **Vie 06/03**: 
-  - [11:47 AM] Reunión/Trabajo en **control-plane** con Felipe Camilo y Augusto.
-  - **Actividad**: Repaso profundo Clase 18 Terraform Platzi.
-  - **Aprendizaje**: El archivo `.tfstate` no es solo un JSON, es el puente entre el código y la realidad de Azure. Entendí la importancia de los *Backends remotos* para evitar conflictos en equipo.
+  - [09:00 AM - Actualidad] | 🏢 **Oficina** | Sesión de **control-plane** (EventCatalog)
+    - **Contexto**: Seguimiento del tema de ayer con Felipe Camilo y Augusto.
+    - **Actividad**: Creación de skills de EventCatalog para generar el diagrama del control-plane.
+    - **Objetivo**: Documentar y visualizar la arquitectura orientada a eventos del sistema.
+  - **Aprendizaje**: Identificada la necesidad de profundizar en los conceptos de **EventCatalog** para modelar correctamente los esquemas.
   - **Nota técnica**: Configuré el sistema de sincronización con NotebookLM y GitHub.
 - **Jue 05/03**:
   - *(Completa con lo que hiciste ayer)*

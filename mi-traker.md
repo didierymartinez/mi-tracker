@@ -59,7 +59,8 @@
 
 | # | Tema | Categoría | Recursos | Estado |
 |---|------|-----------|----------|--------|
-| 1 | *(agrega temas que vayas encontrando)* | — | — | ⬜ |
+| 1 | EventCatalog | EDA | [Documentación](https://www.eventcatalog.dev/) | ⬜ Pendiente |
+| 2 | *(agrega temas que vayas encontrando)* | — | — | ⬜ |
 
 ---
 
