@@ -14,10 +14,9 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
 - **Vie 06/03**: 
   - [09:00 AM - 11:00 AM] | 🏢 **Oficina** | Sesión de **control-plane** (EventCatalog) con Felipe y Augusto.
     - **Resultado**: Avance en diagramación de arquitectura orientada a eventos. Pendiente: profundizar en conceptos de EventCatalog.
-  - [11:00 AM - 12:34 PM] | 🏢 **Oficina** | **Terraform (Platzi)** - Capítulos 19 y 20 completos.
-    - **Cap 19**: Configuración de Estado Remoto en Azure.
-    - **Cap 20**: Implementación práctica de backend.tf y storage accounts.
-    - **Aprendizaje**: El backend remoto es como el "control de versiones" de la infraestructura real. Clave: no subir llaves de acceso al repo.
+  - [11:00 AM - 12:55 PM] | 🏢 **Oficina** | **Terraform (Platzi)** - Capítulos 19, 20 y 21.
+    - **Hito**: Configuración exitosa de Backend Remoto con Azure SAS Tokens.
+    - **Aprendizaje**: Uso de Shared Access Signatures para acceso temporal y seguro de Terraform al Storage Account.
   - [11:30 AM - Actualidad] | 🏢 **Oficina** | **Optimización mi-tracker**.
     - **Actividad**: Creación de sistema de sincronización (Bookmarklet v6), Bitácoras maestras en NotebookLM, Workflows de agente (/setup, /log, /track) e integración con GitHub.
   - **Hito Semanal**: Ecosistema de estudio 100% automatizado y portable.
