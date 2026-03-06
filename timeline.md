@@ -36,21 +36,24 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - **Actividad 2 (HD)**: Solucionado error en cambio de contraseñas que permitía validar usuarios inactivos.
   - **Hito**: Uso de IA para acelerar la publicación del paquete NuGet.
 - **Lun 02/03**: 
-  - **Actividad**: Inicio formal del tracker. Configuración de MCP y Repositorio Git.
-  - **Hito**: Primer commit del proyecto `mi-tracker`.
+  - [08:30 AM - 05:30 PM] | 🏢 **Oficina** | Definiciones con equipo **Cosmos**.
+  - **Actividad**: Trabajo en definiciones de arquitectura y lógica. (Inauguración del sistema de tracker).
+  - **Hito**: Inicio formal del tracker y configuración de MCP/Git.
+  - **Trayecto**: 1h 10min escuchando podcast/cursos de programación. (Llegada a casa con lluvia fuerte).
 
 ---
 
 ## 📊 Resúmenes de los Viernes (Friday Reviews)
 
 ### [Viernes 06/03/2026]
-- **Logro principal**: Arquitectura de estudio 100% portable y automatizada.
+- **Logro principal**: Arquitectura de estudio 100% portable y automatizada + Publicación histórica de NuGet.
 - **Top 3 Aprendizajes**:
-  1. Seguridad de estado en IaC.
-  2. Automatización de toma de apuntes vía Bookmarklets.
-  3. Gestión de agentes IA con workflows personalizados.
-- **Dificultades**: Sincronización de selectores dinámicos en Platzi.
-- **Plan para la próxima semana**: Iniciar prácticas reales de Terraform en Azure y profundizar en Serverless.
+  1. Seguridad de estado en IaC (Terraform) y RSA para tokens.
+  2. Implementación de EDA y Serverless para ERP SaaS (Cosmos).
+  3. Automatización de flujo de trabajo con Agentes IA.
+- **Hábito de Valor**: Aprovechamiento de las 2h 20min diarias de trayecto a la oficina escuchando contenido técnico.
+- **Dificultades**: Clima severo en desplazamientos y sincronización inicial de herramientas.
+- **Plan para la próxima semana**: Profundizar en EventCatalog y asegurar los endpoints del proyecto Marco.
 
 ---
 
