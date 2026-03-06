@@ -12,6 +12,7 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
 **Foco:** Terraform State y Configuración de Ecosistema de Estudio.
 
 - **Vie 06/03**: 
+  - [11:47 AM] Reunión/Trabajo en **control-plane** con Felipe Camilo y Augusto.
   - **Actividad**: Repaso profundo Clase 18 Terraform Platzi.
   - **Aprendizaje**: El archivo `.tfstate` no es solo un JSON, es el puente entre el código y la realidad de Azure. Entendí la importancia de los *Backends remotos* para evitar conflictos en equipo.
   - **Nota técnica**: Configuré el sistema de sincronización con NotebookLM y GitHub.
