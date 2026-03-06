@@ -24,10 +24,17 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - **Actividad**: Diseño del **control-plain**. Planeación de estructura **EDA** y **Serverless** para la base del ERP SaaS.
   - **Aprendizaje Clave**: Urgencia de aprender y dominar la estructura de **EventCatalog** para la documentación de eventos.
   - **Nota**: No se realizaron ejercicios de C# ni lectura del libro SaaS debido a la intensidad del diseño arquitectónico.
-- **Mié 04/03**:
-  - *(Completa)*
+- **Mié 04/03**: 
+  - [Todo el día] | 🏠 **Teletrabajo** | Integración de Tokens y Publicación de NuGet.
+  - **Actividad**: Terminé la integración de tokens de autorización en el proyecto **Marco**.
+  - **Hito Personal**: Logré publicar el **NuGet** y subirlo al repositorio, algo que quería hacer desde hace mucho tiempo.
+  - **Estado técnico**: Los dos tokens quedaron enlazados al generarse. Por ahora están en el ambiente de pruebas. Pendiente: validación y asegurar endpoints.
+  - **Aprendizaje**: Fundamentos de **RSA** para seguridad de tokens.
 - **Mar 03/03**:
-  - *(Completa)*
+  - [Todo el día] | 🏠 **Teletrabajo** | Desarrollo Marco y Correcciones (HD).
+  - **Actividad 1**: Inicio de desarrollo de tokens para Marco.
+  - **Actividad 2 (HD)**: Solucionado error en cambio de contraseñas que permitía validar usuarios inactivos.
+  - **Hito**: Uso de IA para acelerar la publicación del paquete NuGet.
 - **Lun 02/03**: 
   - **Actividad**: Inicio formal del tracker. Configuración de MCP y Repositorio Git.
   - **Hito**: Primer commit del proyecto `mi-tracker`.
