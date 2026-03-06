@@ -19,8 +19,11 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - [11:30 AM - Actualidad] | 🏢 **Oficina** | **Optimización mi-tracker**.
     - **Actividad**: Creación de sistema de sincronización (Bookmarklet v6), Bitácoras maestras en NotebookLM, Workflows de agente (/setup, /log, /track) e integración con GitHub.
   - **Hito Semanal**: Ecosistema de estudio 100% automatizado y portable.
-- **Jue 05/03**:
-  - *(Completa con lo que hiciste ayer)*
+- **Jue 05/03**: 
+  - [08:30 AM - Todo el día] | 🏢 **Oficina** | Sesión de diseño con equipo **Cosmos Plataforma** (Felipe, Augusto y Felipe).
+  - **Actividad**: Diseño del **control-plain**. Planeación de estructura **EDA** y **Serverless** para la base del ERP SaaS.
+  - **Aprendizaje Clave**: Urgencia de aprender y dominar la estructura de **EventCatalog** para la documentación de eventos.
+  - **Nota**: No se realizaron ejercicios de C# ni lectura del libro SaaS debido a la intensidad del diseño arquitectónico.
 - **Mié 04/03**:
   - *(Completa)*
 - **Mar 03/03**:
