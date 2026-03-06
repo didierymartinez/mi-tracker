@@ -4,7 +4,13 @@
 
 ---
 
-## 📚 Libros
+## � Accesos Rápidos
+- [⏳ Mi Línea de Tiempo (Diario)](file:///Users/didierymartinez/Documents/dev_didier/timeline.md)
+- [🧠 Biblioteca de Conocimiento (NotebookLM)](https://notebooklm.google.com/notebook/6b703266-4050-4357-b010-ae7076119e5f)
+
+---
+
+## �📚 Libros
 
 | # | Libro | Capítulo actual | Total caps | Estado |
 |---|-------|----------------|------------|--------|
