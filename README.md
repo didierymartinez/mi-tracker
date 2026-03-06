@@ -19,9 +19,14 @@ javascript:(function(){try{var platform=window.location.hostname;var course="Cur
 
 ---
 
-## 🤖 Configuración de NotebookLM (MCP)
+## 🤖 Configuración de Antigravity (MCP y Comandos Proactivos)
 
-Para que Antigravity pueda leer tus notebooks, debes tener configurado el servidor MCP de NotebookLM.
+Para que Antigravity pueda:
+- `/log`: Reporte diario detallado y Friday Review.
+- `/track [texto]`: Registrar una actividad técnica inmediata en el Timeline (ej: `/track Refactor de base de datos en API`).
+- `/todo [texto]`: Agregar algo a la lista de pendientes de `mi-traker.md`.
+- `/idea [texto]`: Capturar una idea o distracción en el `inbox.md` para verla después.
+...y leer tus notebooks, debes tener configurado el servidor MCP de NotebookLM.
 
 ### Instalación del Servidor:
 Ejecuta estos comandos en tu terminal si cambias de máquina:
@@ -50,3 +55,8 @@ Asegúrate de que tu archivo `~/.gemini/antigravity/mcp_config.json` se vea así
 }
 ```
 > **Nota**: Recuerda actualizar `/Users/TU_USUARIO/` con tu nombre de usuario local.
+
+## 🔗 Accesos Rápidos
+- [⏳ Mi Línea de Tiempo (Diario)](file:///Users/didierymartinez/Documents/dev_didier/timeline.md)
+- [📥 Inbox (Ideas y Distracciones)](file:///Users/didierymartinez/Documents/dev_didier/inbox.md)
+- [🧠 Biblioteca de Conocimiento (NotebookLM)](https://notebooklm.google.com/notebook/6b703266-4050-4357-b010-ae7076119e5f)
