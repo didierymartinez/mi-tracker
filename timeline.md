@@ -17,6 +17,8 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - [11:00 AM - 12:55 PM] | 🏢 **Oficina** | **Terraform (Platzi)** - Capítulos 19 y 20 (Backend Remoto).
     - **Hito**: Configuración exitosa de Backend Remoto con Azure SAS Tokens.
     - **Aprendizaje**: Uso de Shared Access Signatures para acceso temporal y seguro de Terraform al Storage Account.
+  - [02:36 PM - 04:10 PM] | 🏢 **Oficina** | Sesión de diseño con equipo **Cosmos** (EventCatalog).
+    - **Actividad**: Continuación del trabajo en la estructura de eventos y documentación del control-plane.
   - [11:30 AM - Actualidad] | 🏢 **Oficina** | **Optimización mi-tracker**.
     - **Actividad**: Creación de sistema de sincronización (Bookmarklet v6), Bitácoras maestras en NotebookLM, Workflows de agente (/setup, /log, /track) e integración con GitHub.
   - **Hito Semanal**: Ecosistema de estudio 100% automatizado y portable.
