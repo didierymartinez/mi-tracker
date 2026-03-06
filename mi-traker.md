@@ -1,16 +1,29 @@
 # 🎯 Tracker Personal — Didier
 
-> Última actualización: 6 de marzo, 2026 (Sync con Platzi)
+> **Misión Crítica**: El mercado y la IA avanzan a velocidad terminal. Mi propósito es eliminar mi **deuda técnica** (React, Node, C# profundo) mediante la disciplina diaria. Este sistema no es solo un registro, es mi estrategia para asegurar que mi valor técnico crezca exponencialmente. **Consistencia > Intensidad.**
 
 ---
 
-## � Accesos Rápidos
+## 🔗 Accesos Rápidos
 - [⏳ Mi Línea de Tiempo (Diario)](file:///Users/didierymartinez/Documents/dev_didier/timeline.md)
+- [📥 Inbox (Ideas y Distracciones)](file:///Users/didierymartinez/Documents/dev_didier/inbox.md)
 - [🧠 Biblioteca de Conocimiento (NotebookLM)](https://notebooklm.google.com/notebook/6b703266-4050-4357-b010-ae7076119e5f)
 
 ---
 
-## �📚 Libros
+## 🚩 Deuda Técnica (Prioridad de Pago)
+*Estos son los huecos que me hacen vulnerable si no los cierro.*
+
+| Área | Hueco / Deuda | Por qué importa | Prioridad |
+|---|---|---|---|
+| **Frontend** | React Moderno (Hooks, Context, Next.js) | No soy experto en UI de alto rendimiento | 🔴 ALTA |
+| **Backend** | Node.js escalable y Arquitectura | Limitado a stacks tradicionales | 🟠 MEDIA |
+| **Deep Tech** | C# Avanzado (Performance, Internals) | Necesito dominio total para soluciones Senior | 🔴 ALTA |
+| **Diseño** | EventCatalog y Modelado EDA | Deuda de documentación en diseño con el equipo | 🟠 MEDIA |
+
+---
+
+## 📚 Libros
 
 | # | Libro | Capítulo actual | Total caps | Estado |
 |---|-------|----------------|------------|--------|
@@ -47,11 +60,11 @@
 
 ## 🧭 Propósitos
 
-- [ ] Dominar Terraform y aplicarlo en proyectos reales
-- [ ] Comprender arquitectura multi-tenant SaaS a profundidad
-- [ ] Fortalecer fundamentos en C#, Azure, Serverless y EDA
-- [ ] Mantener rutina diaria de estudio y práctica
-- [ ] *(agrega los tuyos aquí)*
+- [/] Pagar deuda técnica en React y Node.js (Práctica real)
+- [/] Dominar Terraform y aplicarlo en proyectos reales
+- [/] Comprender arquitectura multi-tenant SaaS a profundidad
+- [/] Fortalecer fundamentos en C#, Azure, Serverless y EDA
+- [x] Mantener sistema de seguimiento automatizado (mi-tracker)
 
 ---
 
@@ -60,7 +73,6 @@
 | # | Tema | Categoría | Recursos | Estado |
 |---|------|-----------|----------|--------|
 | 1 | EventCatalog | EDA | [Documentación](https://www.eventcatalog.dev/) | ⬜ Pendiente |
-| 2 | *(agrega temas que vayas encontrando)* | — | — | ⬜ |
 
 ---
 
@@ -74,21 +86,13 @@
 | 2. Tema rotativo | 45-60 min | Azure | Serverless | EDA | Azure | Serverless | EDA | Descanso / videos YouTube |
 | 3. Curso o libro | 30 min | Terraform (Platzi) | Libro SaaS | Terraform (Platzi) | Libro SaaS | Terraform (Platzi) | Libro SaaS | Libre |
 
-> **Cómo leerlo:** Por ejemplo, un **martes** harías: Exercism C# (30 min) → Serverless (45 min) → Libro Multi-Tenant SaaS (30 min).
-> El **domingo** es más light: repaso de ejercicios de la semana, videos pendientes de YouTube, y descanso.
-
 ---
 
 ## 💪 Práctica Diaria — Fundamentos
 
-> Detalle de cada tema para los bloques rotativos.
-
 ### C\# — Ejercicios diarios en [Exercism](https://exercism.org/tracks/csharp/exercises)
 
-> Un ejercicio por día siguiendo el track oficial de C# en Exercism.
-
 **Semana 1 — Basics**
-
 | Día | Ejercicio | Tema que practicas | Completado |
 |-----|-----------|-------------------|------------|
 | Lun | Hello, World! | Setup, strings, return | ⬜ |
@@ -100,7 +104,6 @@
 | Dom | Cars, Assemble! | Números, condicionales, casting | ⬜ |
 
 **Semana 2 — Control de flujo y tipos**
-
 | Día | Ejercicio | Tema que practicas | Completado |
 |-----|-----------|-------------------|------------|
 | Lun | Bob | Condicionales, string methods | ⬜ |
@@ -112,7 +115,6 @@
 | Dom | Tim from Marketing | Nullables, string interpolation | ⬜ |
 
 **Semana 3 — OOP y colecciones**
-
 | Día | Ejercicio | Tema que practicas | Completado |
 |-----|-----------|-------------------|------------|
 | Lun | Elon's Toys | Clases, interfaces | ⬜ |
@@ -123,53 +125,45 @@
 | Sáb | *(siguiente del track)* | — | ⬜ |
 | Dom | Repaso semanal + refactor de lo hecho | — | ⬜ |
 
-> **Tip:** Cuando termines estas 3 semanas, continúa con el siguiente ejercicio del [track de C#](https://exercism.org/tracks/csharp/exercises). Avísame y actualizo con las siguientes semanas.
-
 ### Azure
-
 | Día | Tema / Ejercicio | Recurso | Completado |
 |-----|-----------------|---------|------------|
-| Lun | Azure Fundamentals: recursos, resource groups | — | ⬜ |
-| Mar | Azure Functions (HTTP trigger) | — | ⬜ |
-| Mié | Storage: Blob, Queue, Table | — | ⬜ |
-| Jue | Azure SQL / Cosmos DB basics | — | ⬜ |
-| Vie | App Service & deployment | — | ⬜ |
-| Sáb | Mini-proyecto semanal | — | ⬜ |
-| Dom | Repaso + lo que quedó pendiente | — | ⬜ |
+| Lun | Azure Fundamentals | — | ⬜ |
+| Mar | Azure Functions (HTTP) | — | ⬜ |
+| Mié | Storage: Blob, Queue | — | ⬜ |
+| Jue | SQL / Cosmos DB | — | ⬜ |
+| Vie | App Service | — | ⬜ |
+| Sáb | Mini-proyecto | — | ⬜ |
+| Dom | Repaso | — | ⬜ |
 
 ### Serverless
-
 | Día | Tema / Ejercicio | Recurso | Completado |
 |-----|-----------------|---------|------------|
-| Lun | Qué es serverless, cuándo usarlo | — | ⬜ |
-| Mar | Azure Functions avanzado (bindings, triggers) | — | ⬜ |
-| Mié | API Gateway + Functions | — | ⬜ |
-| Jue | Event-driven architecture | — | ⬜ |
-| Vie | Serverless + base de datos | — | ⬜ |
-| Sáb | Mini-proyecto semanal | — | ⬜ |
-| Dom | Repaso + lo que quedó pendiente | — | ⬜ |
+| Lun | Intro Serverless | — | ⬜ |
+| Mar | Functions avanzado | — | ⬜ |
+| Mié | API Gateway | — | ⬜ |
+| Jue | Event Architecture | — | ⬜ |
+| Vie | DB + Serverless | — | ⬜ |
+| Sáb | Mini-proyecto | — | ⬜ |
+| Dom | Repaso | — | ⬜ |
 
 ### EDA (Event-Driven Architecture)
-
 | Día | Tema / Ejercicio | Recurso | Completado |
 |-----|-----------------|---------|------------|
-| Lun | Conceptos clave: eventos, producers, consumers | — | ⬜ |
-| Mar | Patrones: Event Notification, Event-Carried State Transfer | — | ⬜ |
-| Mié | Message Brokers: Azure Service Bus, Event Grid | — | ⬜ |
-| Jue | CQRS y Event Sourcing | — | ⬜ |
-| Vie | Sagas y manejo de transacciones distribuidas | — | ⬜ |
-| Sáb | Mini-proyecto semanal | — | ⬜ |
-| Dom | Repaso + lo que quedó pendiente | — | ⬜ |
+| Lun | Conceptos Eventos | — | ⬜ |
+| Mar | Patrones de Eventos | — | ⬜ |
+| Mié | Message Brokers | — | ⬜ |
+| Jue | CQRS / Event Sourcing | — | ⬜ |
+| Vie | Sagas Distribuidas | — | ⬜ |
+| Sáb | Mini-proyecto | — | ⬜ |
+| Dom | Repaso | — | ⬜ |
 
 ---
 
 ## ✏️ Cómo usar este tracker
-
 - **Actualizar progreso**: cambia el número de capítulo o marca ✅ cuando completes algo
-- **Agregar items**: copia una fila de cualquier tabla y llénala con lo nuevo
-- **Videos nuevos**: pega el link en la tabla de Videos por Ver
-- **Checkboxes**: cambia `⬜` por `✅` o `[ ]` por `[x]`
-- **Práctica diaria**: al inicio de cada semana, actualiza los temas según tu avance
+- **Quick Links**: Usa los enlaces de arriba para navegar rápido
+- **Consistencia**: Un check al día paga un día de deuda técnica.
 
 ---
 
