@@ -14,8 +14,9 @@ Este es el lugar para anotar ideas, recordatorios y tareas que aparecen mientras
 ---
 
 ## 💡 Banco de Ideas y Pensamientos
-- [ ] Idea: *(Ejemplo: Crear un dashboard para visualizar los estados de Terraform en Azure)*
-- [ ] Pensamiento: *(Ejemplo: ¿Será que EDA es mejor con Service Bus o con Event Grid para mi proyecto SaaS?)*
+- [ ] Idea: Crear un dashboard para visualizar los estados de Terraform en Azure.
+- [ ] Pensamiento: ¿Será que EDA es mejor con Service Bus o con Event Grid para mi proyecto SaaS?
+- [ ] **Idea/Preocupación**: Hacer curso básico de Azure. *Obstáculo*: Falta de proyecto tangible para aplicar y mantener consistencia.
 
 ---
 

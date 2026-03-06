@@ -23,9 +23,10 @@ javascript:(function(){try{var platform=window.location.hostname;var course="Cur
 
 Para que Antigravity pueda:
 - `/log`: Reporte diario detallado y Friday Review.
-- `/track [texto]`: Registrar una actividad técnica inmediata en el Timeline (ej: `/track Refactor de base de datos en API`).
+- `/study_sync`: (Automático al pegar `--- SYNC DATA ---`). Validación interactiva de aprendizaje (Socratic Sync) para asegurar el dominio de los temas antes de archivar.
+- `/track [texto]`: Registrar una actividad técnica inmediata en el Timeline (ej: `/track @oficina Refactor API`).
 - `/todo [texto]`: Agregar algo a la lista de pendientes de `mi-traker.md`.
-- `/idea [texto]`: Capturar una idea o distracción en el `inbox.md` para verla después.
+- `/idea [texto]`: Capturar una idea o distracción en el `inbox.md`.
 ...y leer tus notebooks, debes tener configurado el servidor MCP de NotebookLM.
 
 ### Instalación del Servidor:
