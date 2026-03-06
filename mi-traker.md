@@ -16,10 +16,10 @@
 
 | Área | Hueco / Deuda | Por qué importa | Prioridad |
 |---|---|---|---|
-| **Frontend** | React Moderno (Hooks, Context, Next.js) | No soy experto en UI de alto rendimiento | 🔴 ALTA |
-| **Backend** | Node.js escalable y Arquitectura | Limitado a stacks tradicionales | 🟠 MEDIA |
-| **Deep Tech** | C# Avanzado (Performance, Internals) | Necesito dominio total para soluciones Senior | 🔴 ALTA |
-| **Diseño** | EventCatalog y Modelado EDA | Deuda de documentación en diseño con el equipo | 🟠 MEDIA |
+| **Deep Tech** | **C# (RSA, Performance, Arquitectura)** | Dominio total para soluciones Senior | 🔴 CRÍTICA |
+| **Arquitectura** | **EventCatalog y EDA** | Deuda de documentación y diseño actual | � CRÍTICA |
+| **Frontend** | React Moderno (Hooks, Next.js) | Brecha en UI moderna | � MEDIA |
+| **Backend** | Node.js escalable | Limitado a stacks tradicionales | � BAJA |
 
 ---
 
@@ -82,9 +82,9 @@
 
 | Bloque | Duración | Lunes | Martes | Miércoles | Jueves | Viernes | Sábado | Domingo |
 |--------|----------|-------|--------|-----------|--------|---------|--------|---------|
-| 1. C# Exercism | 30 min | Ejercicio del día | Ejercicio del día | Ejercicio del día | Ejercicio del día | Ejercicio del día | Ejercicio del día | Repaso semanal |
-| 2. Tema rotativo | 45-60 min | Azure | Serverless | EDA | Azure | Serverless | EDA | Descanso / videos YouTube |
-| 3. Curso o libro | 30 min | Terraform (Platzi) | Libro SaaS | Terraform (Platzi) | Libro SaaS | Terraform (Platzi) | Libro SaaS | Libre |
+| 1. C# Exercism | 30 min | **C# Profundo** | **C# Profundo** | **C# Profundo** | **C# Profundo** | **C# Profundo** | **C# Profundo** | Repaso C# |
+| 2. Tema rotativo | 45-60 min | **EDA** | Azure | **EDA** | Serverless | **EDA** | Azure/Serverless | Videos EDA |
+| 3. Curso o libro | 30 min | Curso Terraform | **EventCatalog** | Curso Terraform | **EventCatalog** | Curso Terraform | Libro SaaS | Libre |
 
 ---
 
