@@ -14,7 +14,7 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
 - **Vie 06/03**: 
   - [09:00 AM - 11:00 AM] | 🏢 **Oficina** | Sesión de **control-plane** (EventCatalog) con Felipe y Augusto.
     - **Resultado**: Avance en diagramación de arquitectura orientada a eventos. Pendiente: profundizar en conceptos de EventCatalog.
-  - [11:00 AM - 12:55 PM] | 🏢 **Oficina** | **Terraform (Platzi)** - Capítulos 19, 20 y 21.
+  - [11:00 AM - 12:55 PM] | 🏢 **Oficina** | **Terraform (Platzi)** - Capítulos 19 y 20 (Backend Remoto).
     - **Hito**: Configuración exitosa de Backend Remoto con Azure SAS Tokens.
     - **Aprendizaje**: Uso de Shared Access Signatures para acceso temporal y seguro de Terraform al Storage Account.
   - [11:30 AM - Actualidad] | 🏢 **Oficina** | **Optimización mi-tracker**.
