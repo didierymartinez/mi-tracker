@@ -23,7 +23,12 @@
 
 ---
 
-## 📚 Libros
+## � Próximos Compromisos
+- [ ] **Vie 13/03 - 10:00 AM**: 🏢 Reunión SincoSoporte (Oficina).
+
+---
+
+## �📚 Libros
 
 | # | Libro | Capítulo actual | Total caps | Estado |
 |---|-------|----------------|------------|--------|

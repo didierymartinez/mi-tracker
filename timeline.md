@@ -53,7 +53,7 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   3. Automatización de flujo de trabajo con Agentes IA.
 - **Hábito de Valor**: Aprovechamiento de las 2h 20min diarias de trayecto a la oficina escuchando contenido técnico.
 - **Dificultades**: Clima severo en desplazamientos y sincronización inicial de herramientas.
-- **Plan para la próxima semana**: Profundizar en EventCatalog y asegurar los endpoints del proyecto Marco.
+- **Plan para la próxima semana**: Profundizar en EventCatalog, asegurar los endpoints del proyecto Marco y atender reunión presencial de **SincoSoporte** (Vie 13/03).
 
 ---
 
