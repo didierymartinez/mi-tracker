@@ -157,7 +157,7 @@
 ### EDA (Event-Driven Architecture)
 | Día | Tema / Ejercicio | Recurso | Completado |
 |-----|-----------------|---------|------------|
-| Lun | Conceptos Eventos | — | ✅ |
+| Lun | Conceptos Eventos | — | ⬜ |
 | Mar | Patrones de Eventos | — | ⬜ |
 | Mié | Message Brokers | — | ⬜ |
 | Jue | CQRS / Event Sourcing | — | ⬜ |

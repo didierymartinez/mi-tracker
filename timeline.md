@@ -49,8 +49,7 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
 
 - **Lun 09/03**: 
   - [08:30 AM - 09:40 AM] | 🚗 **Trayecto** | Video **EDA - The Basics** (David Boyne).
-    - **Aprendizaje**: Conceptos de Productor, Consumidor, Bus de Eventos y la importancia de la semántica de negocio en los eventos (ej. "Order Placed").
-    - **Nota**: El video estaba en inglés, se sincronizó resumen detallado en español para asegurar comprensión.
+    - **Nota**: Video en inglés. El usuario reporta no haberlo comprendido plenamente. **Deuda técnica: Reforzar conceptos básicos de EDA en español.**
   - [09:40 AM - Actualidad] | 🏢 **Oficina** | Sesión de diseño y documentación con equipo **Cosmos**.
 
 ---
