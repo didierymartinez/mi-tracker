@@ -16,10 +16,10 @@
 
 | Área | Hueco / Deuda | Por qué importa | Prioridad |
 |---|---|---|---|
-| **Deep Tech** | **C# (RSA, Performance, Arquitectura)** | Dominio total para soluciones Senior | 🔴 CRÍTICA |
-| **Arquitectura** | **EventCatalog y EDA** | Deuda de documentación y diseño actual | 🔴 CRÍTICA |
-| **Frontend** | React Moderno (Hooks, Next.js) | Brecha en UI moderna | 🟠 MEDIA |
-| **Backend** | Node.js escalable | Limitado a stacks tradicionales | 🟡 BAJA |
+| **Deep Tech** | **C# (TDD, Unit Testing, xUnit, NSubstitute)** | Base de la calidad del ControlPlane | 🔴 CRÍTICA |
+| **Arquitectura** | **EDA, Event Sourcing (Wolverine/Marten)** | El motor del proyecto Cosmos | 🔴 CRÍTICA |
+| **SaaS Architect** | Multi-Tenancy Patterns (Libro) | Diseño estratégico del ERP | � MEDIA |
+| **Frontend** | React Moderno (Hooks, Next.js) | Brecha en UI moderna | 🟡 BAJA |
 
 ---
 
@@ -90,8 +90,8 @@
 | Bloque | Duración | Lunes | Martes | Miércoles | Jueves | Viernes | Sábado | Domingo |
 |--------|----------|-------|--------|-----------|--------|---------|--------|---------|
 | 1. C# Exercism | 30 min | **C# Profundo** | **C# Profundo** | **C# Profundo** | **C# Profundo** | **C# Profundo** | **C# Profundo** | Repaso C# |
-| 2. Tema rotativo | 45-60 min | **EDA** | Azure | **EDA** | Serverless | **EDA** | Azure/Serverless | Videos EDA |
-| 3. Curso o libro | 30 min | Curso Terraform | **EventCatalog** | Curso Terraform | **EventCatalog** | Curso Terraform | Libro SaaS | Libre |
+| 2. Tema Cosmos | 45-60 min | **EDA / Bus** | Wolverine/Marten| **Reverse Eng Repo**| Event Sourcing | **TDD / Testing** | Repaso Cosmos | Videos EDA |
+| 3. Curso o libro | 30 min | Curso Terraform | **EventCatalog** | Curso Terraform | **SaaS Book** | Curso Terraform | SaaS Book | Libre |
 
 ---
 
@@ -157,11 +157,11 @@
 ### EDA (Event-Driven Architecture)
 | Día | Tema / Ejercicio | Recurso | Completado |
 |-----|-----------------|---------|------------|
-| Lun | Conceptos Eventos | — | ⬜ |
+| Lun | Conceptos Eventos (Boyne) | — | ⬜ |
 | Mar | Patrones de Eventos | — | ⬜ |
-| Mié | Message Brokers | — | ⬜ |
+| Mié | Message Brokers / Bus | — | ⬜ |
 | Jue | CQRS / Event Sourcing | — | ⬜ |
-| Vie | Sagas Distribuidas | — | ⬜ |
+| Vie | Sagas / Projections | — | ⬜ |
 | Sáb | Mini-proyecto | — | ⬜ |
 | Dom | Repaso | — | ⬜ |
 
