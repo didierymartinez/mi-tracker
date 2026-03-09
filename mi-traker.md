@@ -17,18 +17,20 @@
 | Área | Hueco / Deuda | Por qué importa | Prioridad |
 |---|---|---|---|
 | **Deep Tech** | **C# (RSA, Performance, Arquitectura)** | Dominio total para soluciones Senior | 🔴 CRÍTICA |
-| **Arquitectura** | **EventCatalog y EDA** | Deuda de documentación y diseño actual | � CRÍTICA |
-| **Frontend** | React Moderno (Hooks, Next.js) | Brecha en UI moderna | � MEDIA |
-| **Backend** | Node.js escalable | Limitado a stacks tradicionales | � BAJA |
+| **Arquitectura** | **EventCatalog y EDA** | Deuda de documentación y diseño actual | 🔴 CRÍTICA |
+| **Frontend** | React Moderno (Hooks, Next.js) | Brecha en UI moderna | 🟠 MEDIA |
+| **Backend** | Node.js escalable | Limitado a stacks tradicionales | 🟡 BAJA |
 
 ---
 
-## � Próximos Compromisos
+## 📅 Próximos Compromisos
+- [ ] **Lun 09/03**: 🏢 Oficina (Sesión Cosmos).
+- [ ] **Jue 12/03**: 🏢 Oficina.
 - [ ] **Vie 13/03 - 10:00 AM**: 🏢 Reunión SincoSoporte (Oficina).
 
 ---
 
-## �📚 Libros
+## 📚 Libros
 
 | # | Libro | Capítulo actual | Total caps | Estado |
 |---|-------|----------------|------------|--------|
