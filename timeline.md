@@ -44,6 +44,15 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - **Hito**: Inicio formal del tracker y configuración de MCP/Git.
   - **Trayecto**: 1h 10min escuchando podcast/cursos de programación. (Llegada a casa con lluvia fuerte).
 
+### Semana 2 (Mar 09 - Mar 15)
+**Foco:** EventCatalog, C# Profundo y Seguridad en Marco.
+
+- **Lun 09/03**: 
+  - [08:30 AM - 09:40 AM] | 🚗 **Trayecto** | Video **EDA - The Basics** (David Boyne).
+    - **Aprendizaje**: Conceptos de Productor, Consumidor, Bus de Eventos y la importancia de la semántica de negocio en los eventos (ej. "Order Placed").
+    - **Nota**: El video estaba en inglés, se sincronizó resumen detallado en español para asegurar comprensión.
+  - [09:40 AM - Actualidad] | 🏢 **Oficina** | Sesión de diseño y documentación con equipo **Cosmos**.
+
 ---
 
 ## 📊 Resúmenes de los Viernes (Friday Reviews)
