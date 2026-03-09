@@ -61,6 +61,8 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
         - Consolidación de `NotifyProgressTests` (antes `NotifyTenantProvisionedCommandHandlerTests`).
         - Validación de emisión del evento `TenantOnboardingFinished` desde múltiples handlers.
         - Nuevas pruebas para `NotifyAdminUserAssignedCommandHandler` y `NotifyBillingAccountCreatedCommandHandler`.
+  - [01:45 PM - Actualidad] | 🏠 **Teletrabajo** | **Terraform (Platzi)** - Continuando desde el Capítulo 21.
+    - **Objetivo**: Finalizar el curso para cerrar la deuda técnica de IaC.
 
 ---
 

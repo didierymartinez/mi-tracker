@@ -42,7 +42,7 @@
 
 | # | Curso | Plataforma | Capítulo actual | Estado |
 |---|-------|------------|----------------|--------|
-| 1 | Terraform | Platzi | 20 | 🟡 En progreso |
+| 1 | Terraform | Platzi | 21 | 🟡 En progreso |
 
 ---
 
