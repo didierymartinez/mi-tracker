@@ -62,9 +62,8 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
         - Validación de emisión del evento `TenantOnboardingFinished` desde múltiples handlers.
         - Nuevas pruebas para `NotifyAdminUserAssignedCommandHandler` y `NotifyBillingAccountCreatedCommandHandler`.
   - [01:45 PM - 03:01 PM] | 🏠 **Teletrabajo** | **Terraform (Platzi)** - Capítulo 21: Data Sources.
-    - **Aprendizaje**: Uso de bloques `data` para referenciar recursos existentes en Azure (solo lectura). Ideal para colaborar entre equipos.
-    - **Comandos**: `terraform plan -out=plan.out` para guardar el plan antes del apply.
-  - [03:01 PM - Actualidad] | 🏠 **Teletrabajo** | **Terraform (Platzi)** - Capítulo 22.
+    - **Nota**: El usuario reporta no haber comprendido el concepto de bloques `data`. **Deuda técnica: Reforzar Data Sources (Solo Lectura) en español.**
+  - [03:01 PM - Actualidad] | 🏠 **Teletrabajo** | **Terraform (Platzi)** - Repasando Capítulo 21.
 
 ---
 
