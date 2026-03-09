@@ -57,6 +57,10 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
       - **Mensajería**: Implementación de una arquitectura de "Forwarding" en Service Bus (temas renamed con sufijo `Topic` reenvían a una cola única `onboardingQueue`).
       - **Core**: Extracción del `EventManager` como proyecto independiente.
       - **Refactor**: `TenantOnboarding` evolucionó a `TenantOnboardingAggregateRoot` con mejores métodos de notificación y emisión de eventos de finalización.
+      - **Pruebas Técnicas**:
+        - Consolidación de `NotifyProgressTests` (antes `NotifyTenantProvisionedCommandHandlerTests`).
+        - Validación de emisión del evento `TenantOnboardingFinished` desde múltiples handlers.
+        - Nuevas pruebas para `NotifyAdminUserAssignedCommandHandler` y `NotifyBillingAccountCreatedCommandHandler`.
 
 ---
 
