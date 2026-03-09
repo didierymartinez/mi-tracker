@@ -50,7 +50,13 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
 - **Lun 09/03**: 
   - [08:30 AM - 09:40 AM] | 🚗 **Trayecto** | Video **EDA - The Basics** (David Boyne).
     - **Nota**: Video en inglés. El usuario reporta no haberlo comprendido plenamente. **Deuda técnica: Reforzar conceptos básicos de EDA en español.**
-  - [09:40 AM - Actualidad] | 🏢 **Oficina** | Sesión de diseño y documentación con equipo **Cosmos**.
+  - [09:40 AM - 01:10 PM] | 🏢 **Oficina** | Sesión de diseño y codificación **ControlPlane** (Cosmos).
+    - **Hito**: Reestructuración profunda de la arquitectura de Onboarding.
+    - **Cambios Clave**:
+      - **Namespaces**: Unificación a `Onboarding.Entities` y `Onboarding.NotifyProgress`.
+      - **Mensajería**: Implementación de una arquitectura de "Forwarding" en Service Bus (temas renamed con sufijo `Topic` reenvían a una cola única `onboardingQueue`).
+      - **Core**: Extracción del `EventManager` como proyecto independiente.
+      - **Refactor**: `TenantOnboarding` evolucionó a `TenantOnboardingAggregateRoot` con mejores métodos de notificación y emisión de eventos de finalización.
 
 ---
 
