@@ -61,8 +61,10 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
         - Consolidación de `NotifyProgressTests` (antes `NotifyTenantProvisionedCommandHandlerTests`).
         - Validación de emisión del evento `TenantOnboardingFinished` desde múltiples handlers.
         - Nuevas pruebas para `NotifyAdminUserAssignedCommandHandler` y `NotifyBillingAccountCreatedCommandHandler`.
-  - [01:45 PM - Actualidad] | 🏠 **Teletrabajo** | **Terraform (Platzi)** - Continuando desde el Capítulo 21.
-    - **Objetivo**: Finalizar el curso para cerrar la deuda técnica de IaC.
+  - [01:45 PM - 03:01 PM] | 🏠 **Teletrabajo** | **Terraform (Platzi)** - Capítulo 21: Data Sources.
+    - **Aprendizaje**: Uso de bloques `data` para referenciar recursos existentes en Azure (solo lectura). Ideal para colaborar entre equipos.
+    - **Comandos**: `terraform plan -out=plan.out` para guardar el plan antes del apply.
+  - [03:01 PM - Actualidad] | 🏠 **Teletrabajo** | **Terraform (Platzi)** - Capítulo 22.
 
 ---
 
