@@ -42,7 +42,7 @@
 
 | # | Curso | Plataforma | Capítulo actual | Estado |
 |---|-------|------------|----------------|--------|
-| 1 | Terraform | Platzi | 22 | ✅ Completado |
+| 1 | Terraform | Platzi | 23 | ✅ Completado |
 
 ---
 
@@ -59,7 +59,7 @@
 
 | # | Tarea | Prioridad | Estado |
 |---|-------|-----------|--------|
-| 1 | Terminar curso de Terraform (Platzi) | 🔴 Alta | 🟡 En progreso |
+| 1 | Terminar curso de Terraform (Platzi) | 🔴 Alta | ✅ Completado |
 | 2 | Avanzar libro Multi-Tenant SaaS | 🔴 Alta | 🟡 En progreso |
 | 3 | Ver videos guardados de YouTube | 🟡 Media | ⬜ Pendiente |
 
@@ -68,7 +68,7 @@
 ## 🧭 Propósitos
 
 - [/] Pagar deuda técnica en React y Node.js (Práctica real)
-- [/] Dominar Terraform y aplicarlo en proyectos reales
+- [x] Dominar Terraform y aplicarlo en proyectos reales
 - [/] Comprender arquitectura multi-tenant SaaS a profundidad
 - [/] Fortalecer fundamentos en C#, Azure, Serverless y EDA
 - [x] Mantener sistema de seguimiento automatizado (mi-tracker)
