@@ -58,9 +58,12 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
       - **Core**: Extracción del `EventManager` como proyecto independiente.
       - **Refactor**: `TenantOnboarding` evolucionó a `TenantOnboardingAggregateRoot` con mejores métodos de notificación y emisión de eventos de finalización.
       - **Pruebas Técnicas**:
-        - Consolidación de `NotifyProgressTests` (antes `NotifyTenantProvisionedCommandHandlerTests`).
-        - Validación de emisión del evento `TenantOnboardingFinished` desde múltiples handlers.
-        - Nuevas pruebas para `NotifyAdminUserAssignedCommandHandler` y `NotifyBillingAccountCreatedCommandHandler`.
+        - Consolidación de `NotifyProgressTests` y validación de emisión de `TenantOnboardingFinished`.
+        - Migración a `CommandHandlerAsyncTestWithPublisher` para pruebas de integración de eventos.
+      - **Middleware & Persistencia**:
+        - Implementación de **UnitOfWorkMiddleware** en Onboarding y TenantProvisioning.
+        - Configuración de **EventStore** e **IPrivateEventSender** en el módulo de `TenantProvisioning`.
+        - Mejoras en la deserialización de mensajes (Case-insensitive y parseo de `Subject` de Wolverine).
   - [01:45 PM - 03:01 PM] | 🏠 **Teletrabajo** | **Terraform (Platzi)** - Capítulo 21: Data Sources.
     - **Nota**: El usuario reporta no haber comprendido el concepto de bloques `data`. **Deuda técnica: Reforzar Data Sources (Solo Lectura) en español.**
   - [03:01 PM - 07:22 PM] | 🏠 **Teletrabajo** | Repasando Capítulo 21 de Terraform y sincronización de tracker.

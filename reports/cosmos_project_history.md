@@ -25,9 +25,12 @@
 ### Marzo 2026: Refactor Estructural y Documentación
 - **09 de Marzo**: 
   - **Refactor Core**: Evolución de `TenantOnboarding` a `TenantOnboardingAggregateRoot`.
-  - **Modularización**: Extracción de `EventManager` como proyecto independiente.
-  - **Unificación**: Namespaces reorganizados bajo `Onboarding.Entities` y `Onboarding.NotifyProgress`.
-  - **Validación**: Cobertura robusta de handlers de notificación.
+  - **Event Bus & Messaging**:
+    - Implementación de **UnitOfWorkMiddleware** para asegurar la atomicidad en Onboarding y TenantProvisioning.
+    - Publicación de eventos privados (`IPrivateEventSender`) antes de persistir en el `EventStore`.
+    - Ajustes en la deserialización de Service Bus (Case-insensitive y parseo de `Subject`).
+  - **Modularización**: Extracción de `EventManager` como proyecto independiente e inyección de `IPrivateEventSender` en handlers clave.
+  - **Validación**: Cobertura robusta de handlers y migración de pruebas a `CommandHandlerAsyncTestWithPublisher`.
 - **06 de Marzo**:
   - **EventCatalog**: Integración formal del CLI de EventCatalog para documentar eventos.
   - **Skills**: Migración de lógica de comandos a "Skills" en el repositorio.
