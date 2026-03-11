@@ -75,14 +75,6 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - [08:36 PM] | 🏠 **Casa** | **Cierre Total de Jornada.**
 
 - **Mar 10/03**: 
-  - [09:39 AM - 10:06 AM] | 🏠 **Teletrabajo** | **Arquitectura Udemy** - Cap 2: Rendimiento.
-    - **Reflexiones**:
-      - Latencia de red: Se soluciona acercando el servidor al usuario (Edge Computing/Regiones).
-      - Métricas: Uso de percentiles (p90/p95) para detectar problemas en la "cola" que el promedio oculta.
-      - Throughput: Un bajo throughput causa esperas acumulativas para usuarios concurrentes.
-  - [10:06 AM - 11:45 AM] | 🏠 **Teletrabajo** | **Arquitectura Udemy** - Cap 3: Escalabilidad.
-  - [11:45 AM - Actualidad] | 🏠 **Teletrabajo** | **Soporte Técnico** - ID: 691164.
-    - **Contexto**: Pausa en estudio por atención de requerimiento urgente de soporte.
   - [10:22 AM - 01:00 PM] | 🏠 **Teletrabajo** | Resolución de errores de **Token de Autorización**.
     - **Problema**: El formato del token cambió, rompiendo la integración.
     - **Acción**: Ajuste de lógica de validación y parsing del nuevo formato de token.
@@ -92,8 +84,13 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - [09:48 PM] | 🏠 **Casa** | **Cierre de Jornada.**
 
 - **Mié 11/03**: 
-  - [09:24 AM - Actualidad] | 🏠 **Teletrabajo** | Cambio de planes: Inicio de curso de **Arquitectura de Sistemas (Udemy)**.
-    - **Objetivo**: Reforzar diseño a gran escala de forma paralela a Cosmos.
+  - [09:24 AM - 10:06 AM] | 🏠 **Teletrabajo** | **Arquitectura Udemy** - Cap 1 y 2: Rendimiento.
+    - **Reflexiones**: Distinción entre Requisitos Funcionales y No Funcionales (SLA). Uso de percentiles (p95) para Tail Latency.
+  - [10:06 AM - 11:45 AM] | 🏠 **Teletrabajo** | **Arquitectura Udemy** - Cap 3: Escalabilidad.
+    - **Concepto clave**: Servicios **Stateless** y Event Sourcing como habilitadores de escalado horizontal.
+  - [11:45 AM - 12:42 PM] | 🏠 **Teletrabajo** | **Soporte Técnico** - ID: 691164 (Emails).
+    - **Resultado**: Cerrado. Se verificó en SendGrid que no hay bloqueo de cuenta. Algunos mails se enviaron ok; posible tema de Front o registros específicos.
+  - [12:42 PM - Actualidad] | 🏠 **Teletrabajo** | Regreso a **Arquitectura Udemy** - Cap 5: Mantenibilidad.
 
 ---
 
