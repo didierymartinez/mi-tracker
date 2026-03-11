@@ -106,7 +106,10 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - [04:04 PM - 04:20 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 5 (16 min)**: Cap 9 - Message Brokers (Video: 8:41).
     - **Resultado**: ¡Cierre magistral! Foco del 100%. Identificación de Topics vs Queues y prioridad de fiabilidad en Onboarding.
     - **Reflexiones**: El desacoplamiento en Cosmos (Wolverine + Bus) es lo que permite que el sistema sea tolerante a fallos.
-  - [04:20 PM - Actualidad] | 🏠 **Teletrabajo** | Sincronización final y cierre de sesión de estudio.
+  - [04:24 PM - 04:45 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 6 (21 min)**: Cap 10 - Cachés (Video: 12:24).
+    - **Resultado**: Foco del 1.6x. Gran manejo de conceptos de consistencia y estrategias de escritura (Write Behind).
+    - **Reflexiones**: El balance entre rendimiento y consistencia es la decisión clave al usar Redis.
+  - [04:45 PM - Actualidad] | 🏠 **Teletrabajo** | Sincronización final y cierre de la jornada de estudio activa.
 
 ---
 
