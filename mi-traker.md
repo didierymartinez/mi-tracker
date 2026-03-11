@@ -18,7 +18,7 @@
 |---|---|---|---|
 | **Deep Tech** | **C# (TDD, Unit Testing, xUnit, NSubstitute)** | Base de la calidad del ControlPlane | 🔴 CRÍTICA |
 | **Arquitectura** | **EDA, Event Sourcing (Wolverine/Marten)** | El motor del proyecto Cosmos | 🔴 CRÍTICA |
-| **SaaS Architect** | Multi-Tenancy Patterns (Libro) | Diseño estratégico del ERP | � MEDIA |
+| **SaaS Architect** | Multi-Tenancy Patterns (Libro) | Diseño estratégico del ERP | 🟡 MEDIA |
 | **Frontend** | React Moderno (Hooks, Next.js) | Brecha en UI moderna | 🟡 BAJA |
 
 ---
@@ -43,7 +43,7 @@
 | # | Curso | Plataforma | Capítulo actual | Estado |
 |---|-------|------------|----------------|--------|
 | 1 | Terraform | Platzi | 23 | ✅ Completado |
-| 2 | Diseño de Sistemas a Gran Escala | Udemy | 0 | 🟡 Iniciando |
+| 2 | Diseño de Sistemas a Gran Escala | Udemy | 1 | ✅ Completado |
 
 ---
 
