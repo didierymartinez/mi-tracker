@@ -43,7 +43,7 @@
 | # | Curso | Plataforma | Capítulo actual | Estado |
 |---|-------|------------|----------------|--------|
 | 1 | Terraform | Platzi | 23 | ✅ Completado |
-| 2 | Diseño de Sistemas a Gran Escala | Udemy | 1 | ✅ Completado |
+| 2 | Diseño de Sistemas a Gran Escala | Udemy | 3 | 🟡 En progreso |
 
 ---
 
