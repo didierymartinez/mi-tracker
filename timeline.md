@@ -93,8 +93,8 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - [12:49 PM - 01:05 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 1 (16 min)**: Arquitectura Udemy - Cap 5: Mantenibilidad.
     - **Resultado**: ¡ÉXITO! Foco mantenido durante todo el video (8:36 min).
     - **Reflexiones**: Observabilidad, Simplicidad y Extensibilidad como pilares.
-    - **Aprendizaje**: Agile vs Cascada y la importancia del feedback incremental para la mantenibilidad.
-  - [01:05 PM - Actualidad] | 🏠 **Teletrabajo** | Análisis de reto de mantenibilidad y pausa para almuerzo.
+    - **Aprendizaje**: El principio de **Responsabilidad Única (SRP)** es clave para evitar "Handlers monstruo". Si un Handler hace validación, base de datos y llamadas externas, cualquier cambio rompe todo el flujo.
+  - [01:05 PM - Actualidad] | 🏠 **Teletrabajo** | Almuerzo y pausa de mediodía.
 
 ---
 
