@@ -96,7 +96,11 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - [02:27 PM - 02:43 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 2 (16 min)**: Cap 6 - Sistemas a Gran Escala (Video: 12:37).
     - **Resultado**: ¡Excelente foco! Tiempo casi real (1.2x). El Pre-Skimming ayudó a canalizar la atención.
     - **Reflexiones**: Importancia de la idempotencia en servicios de cobro y el uso de asincronismo para reportes pesados.
-  - [02:43 PM - Actualidad] | 🏠 **Teletrabajo** | Preparando Capítulo 7: Load Balancers.
+  - [02:43 PM - 03:00 PM] | 🏠 **Teletrabajo** | Pausa breve (☕ Tinto).
+  - [03:00 PM - 03:42 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 3 (42 min)**: Cap 7 - Load Balancers (Video: 8:47).
+    - **Resultado**: Foco mantenido. Se identificó correctamente GSLB como solución al SPOF del balanceador y Hash de IP para afinidad.
+    - **Reflexiones**: Pasando de SPOF en servidores a redundancia con LBs.
+  - [03:42 PM - Actualidad] | 🏠 **Teletrabajo** | Preparando Capítulo 8: API Gateway.
 
 ---
 
