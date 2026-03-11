@@ -100,7 +100,10 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - [03:00 PM - 03:42 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 3 (42 min)**: Cap 7 - Load Balancers (Video: 8:47).
     - **Resultado**: Foco mantenido. Se identificó correctamente GSLB como solución al SPOF del balanceador y Hash de IP para afinidad.
     - **Reflexiones**: Pasando de SPOF en servidores a redundancia con LBs.
-  - [03:42 PM - Actualidad] | 🏠 **Teletrabajo** | Preparando Capítulo 8: API Gateway.
+  - [03:43 PM - 04:03 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 4 (20 min)**: Cap 8 - API Gateway (Video: 6:59).
+    - **Resultado**: Foco mantenido. Se identificó la latencia como el compromiso (trade-off) de usar una Gateway.
+    - **Reflexiones**: Centralización de Auth y Rate Limiting para evitar duplicidad en microservicios.
+  - [04:03 PM - Actualidad] | 🏠 **Teletrabajo** | Preparando Capítulo 9: Message Brokers.
 
 ---
 
