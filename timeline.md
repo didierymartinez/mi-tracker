@@ -80,6 +80,10 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
     - **Arquitectura**: Definición inicial de estructura y flujo de autenticación entre integradores y ERPs.
   - [09:48 PM] | 🏠 **Casa** | **Cierre de Jornada.**
 
+- **Mié 11/03**: 
+  - [09:24 AM - Actualidad] | 🏠 **Teletrabajo** | Cambio de planes: Inicio de curso de **Arquitectura de Sistemas (Udemy)**.
+    - **Objetivo**: Reforzar diseño a gran escala de forma paralela a Cosmos.
+
 ---
 
 ## 📊 Resúmenes de los Viernes (Friday Reviews)
