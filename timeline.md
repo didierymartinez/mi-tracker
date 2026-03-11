@@ -90,7 +90,11 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
     - **Concepto clave**: Servicios **Stateless** y Event Sourcing como habilitadores de escalado horizontal.
   - [11:45 AM - 12:42 PM] | 🏠 **Teletrabajo** | **Soporte Técnico** - ID: 691164 (Emails).
     - **Resultado**: Cerrado. Se verificó en SendGrid que no hay bloqueo de cuenta. Algunos mails se enviaron ok; posible tema de Front o registros específicos.
-  - [12:42 PM - Actualidad] | 🏠 **Teletrabajo** | Regreso a **Arquitectura Udemy** - Cap 5: Mantenibilidad.
+  - [12:49 PM - 01:05 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 1 (16 min)**: Arquitectura Udemy - Cap 5: Mantenibilidad.
+    - **Resultado**: ¡ÉXITO! Foco mantenido durante todo el video (8:36 min).
+    - **Reflexiones**: Observabilidad, Simplicidad y Extensibilidad como pilares.
+    - **Aprendizaje**: Agile vs Cascada y la importancia del feedback incremental para la mantenibilidad.
+  - [01:05 PM - Actualidad] | 🏠 **Teletrabajo** | Análisis de reto de mantenibilidad y pausa para almuerzo.
 
 ---
 
