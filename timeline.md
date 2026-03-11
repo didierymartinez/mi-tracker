@@ -103,7 +103,10 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - [03:43 PM - 04:03 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 4 (20 min)**: Cap 8 - API Gateway (Video: 6:59).
     - **Resultado**: Foco mantenido. Se identificó la latencia como el compromiso (trade-off) de usar una Gateway.
     - **Reflexiones**: Centralización de Auth y Rate Limiting para evitar duplicidad en microservicios.
-  - [04:03 PM - Actualidad] | 🏠 **Teletrabajo** | Preparando Capítulo 9: Message Brokers.
+  - [04:04 PM - 04:20 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 5 (16 min)**: Cap 9 - Message Brokers (Video: 8:41).
+    - **Resultado**: ¡Cierre magistral! Foco del 100%. Identificación de Topics vs Queues y prioridad de fiabilidad en Onboarding.
+    - **Reflexiones**: El desacoplamiento en Cosmos (Wolverine + Bus) es lo que permite que el sistema sea tolerante a fallos.
+  - [04:20 PM - Actualidad] | 🏠 **Teletrabajo** | Sincronización final y cierre de sesión de estudio.
 
 ---
 
