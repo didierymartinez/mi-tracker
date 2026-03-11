@@ -91,10 +91,12 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - [11:45 AM - 12:42 PM] | 🏠 **Teletrabajo** | **Soporte Técnico** - ID: 691164 (Emails).
     - **Resultado**: Cerrado. Se verificó en SendGrid que no hay bloqueo de cuenta. Algunos mails se enviaron ok; posible tema de Front o registros específicos.
   - [12:49 PM - 01:05 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 1 (16 min)**: Arquitectura Udemy - Cap 5: Mantenibilidad.
-    - **Resultado**: ¡ÉXITO! Foco mantenido durante todo el video (8:36 min).
-    - **Reflexiones**: Observabilidad, Simplicidad y Extensibilidad como pilares.
-    - **Aprendizaje**: El principio de **Responsabilidad Única (SRP)** es clave para evitar "Handlers monstruo". Si un Handler hace validación, base de datos y llamadas externas, cualquier cambio rompe todo el flujo.
-  - [01:05 PM - Actualidad] | 🏠 **Teletrabajo** | Almuerzo y pausa de mediodía.
+    - **Resultado**: Foco monitoreado con *stopwatch*. Hallazgo: ~10 distracciones/pensamientos intrusivos (1 cada minuto aprox). Duración total del estudio: 2x duración del video.
+    - **Reflexión**: La mente de arquitecto está muy activa. Necesidad de "Misión Activa" (Pre-Skimming) para canalizar las ideas.
+  - [02:27 PM - 02:43 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 2 (16 min)**: Cap 6 - Sistemas a Gran Escala (Video: 12:37).
+    - **Resultado**: ¡Excelente foco! Tiempo casi real (1.2x). El Pre-Skimming ayudó a canalizar la atención.
+    - **Reflexiones**: Importancia de la idempotencia en servicios de cobro y el uso de asincronismo para reportes pesados.
+  - [02:43 PM - Actualidad] | 🏠 **Teletrabajo** | Preparando Capítulo 7: Load Balancers.
 
 ---
 
