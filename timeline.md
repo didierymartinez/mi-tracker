@@ -72,8 +72,13 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
   - [08:36 PM] | 🏠 **Casa** | **Cierre Total de Jornada.**
 
 - **Mar 10/03**: 
-  - [10:22 AM - Actualidad] | 🏠 **Teletrabajo** | Inicio de jornada enfocado en el currículum de refuerzo Cosmos.
-    - **Plan**: Bloque 1 (C#), Bloque 2 (Wolverine/Marten) y Bloque 3 (EventCatalog).
+  - [10:22 AM - 01:00 PM] | 🏠 **Teletrabajo** | Resolución de errores de **Token de Autorización**.
+    - **Problema**: El formato del token cambió, rompiendo la integración.
+    - **Acción**: Ajuste de lógica de validación y parsing del nuevo formato de token.
+  - [02:00 PM - 06:00 PM] | 🏠 **Teletrabajo** | Diseño y planeación de **App de Integradores**.
+    - **Objetivo**: Crear una plataforma para registrar aplicaciones integradoras del ERP y gestionar la generación de tokens para los diversos ERPs.
+    - **Arquitectura**: Definición inicial de estructura y flujo de autenticación entre integradores y ERPs.
+  - [09:48 PM] | 🏠 **Casa** | **Cierre de Jornada.**
 
 ---
 

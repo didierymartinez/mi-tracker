@@ -80,6 +80,7 @@
 | # | Tema | Categoría | Recursos | Estado |
 |---|------|-----------|----------|--------|
 | 1 | EventCatalog | EDA | [Documentación](https://www.eventcatalog.dev/) | ⬜ Pendiente |
+| 2 | Plataforma de Integradores ERP | Arquitectura / Auth | Diseño de tokens e integración | 🟡 En progreso |
 
 ---
 
