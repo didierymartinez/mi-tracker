@@ -80,7 +80,12 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
       - Latencia de red: Se soluciona acercando el servidor al usuario (Edge Computing/Regiones).
       - Métricas: Uso de percentiles (p90/p95) para detectar problemas en la "cola" que el promedio oculta.
       - Throughput: Un bajo throughput causa esperas acumulativas para usuarios concurrentes.
-  - [10:06 AM - Actualidad] | 🏠 **Teletrabajo** | Pasando al Capítulo 3: Escalabilidad.
+  - [10:06 AM - 11:30 AM] | 🏠 **Teletrabajo** | **Arquitectura Udemy** - Cap 3: Escalabilidad (Video: 10:55 min).
+    - **Reflexiones**:
+      - Riesgo Stateful: La pérdida de sesión o de estado de proceso al escalar o reiniciar instancias.
+      - Event Sourcing facilitador: La persistencia de eventos (Marten) permite que cualquier instancia pueda reconstruir el estado, haciendo el sistema intrínsecamente Stateless.
+      - Coordinación humana: Reconocimiento del impacto negativo de la sobrepoblación en proyectos sin límites claros.
+  - [11:30 AM - Actualidad] | 🏠 **Teletrabajo** | Pasando al Capítulo 4: Fiabilidad.
   - [10:22 AM - 01:00 PM] | 🏠 **Teletrabajo** | Resolución de errores de **Token de Autorización**.
     - **Problema**: El formato del token cambió, rompiendo la integración.
     - **Acción**: Ajuste de lógica de validación y parsing del nuevo formato de token.
