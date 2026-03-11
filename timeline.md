@@ -18,8 +18,11 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
     - **Hito**: Configuración exitosa de Backend Remoto con Azure SAS Tokens.
     - **Aprendizaje**: Uso de Shared Access Signatures para acceso temporal y seguro de Terraform al Storage Account.
   - [02:36 PM - 04:10 PM] | 🏢 **Oficina** | Sesión de diseño con equipo **Cosmos** (EventCatalog).
-    - **Actividad**: Continuación del trabajo en la estructura de eventos y documentación del control-plane.
-  - [11:30 AM - Actualidad] | 🏢 **Oficina** | **Optimización mi-tracker**.
+    - **Reflexiones**: 
+      - Distinción entre Requisitos Funcionales (qué hace) y No Funcionales (SLA: <10 min para Onboarding completo).
+      - Aplicación de asincronismo para evitar bloqueos en BD (Patrón implementado en Cosmos con Wolverine/Marten).
+      - Identificación de Restricciones (Azure Service Bus por contrato).
+  - [09:39 AM - Actualidad] | 🏠 **Teletrabajo** | Pasando al Capítulo 2: Atributos de Calidad.
     - **Actividad**: Creación de sistema de sincronización (Bookmarklet v6), Bitácoras maestras en NotebookLM, Workflows de agente (/setup, /log, /track) e integración con GitHub.
   - **Hito Semanal**: Ecosistema de estudio 100% automatizado y portable.
 - **Jue 05/03**: 
