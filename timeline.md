@@ -80,15 +80,26 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
     - **Acción**: Ajuste de lógica de validación y parsing del nuevo formato de token.
   - [02:00 PM - 06:00 PM] | 🏠 **Teletrabajo** | Diseño y planeación de **App de Integradores**.
     - **Objetivo**: Crear una plataforma para registrar aplicaciones integradoras del ERP y gestionar la generación de tokens para los diversos ERPs.
-    - **Arq  - [09:00 AM - 11:00 AM] | 🏢 **Oficina** | **Comité de Desarrollo**.
-    - **Temas**: Socialización de nuevo token de autorización.
-    - **Tareas Pendientes**: Publicar a PROD, publicar NuGet y enviar documentación.
+- **Mié 11/03**: 
+  - [09:00 AM - 11:00 AM] | 🏢 **Oficina** | **Comité de Desarrollo**.
+    - **Temas**: Socialización de nuevo token de autorización. Tarea pendiente: publicar a PROD, publicar NuGet, enviar documentación.
     - **Otras Gestiones**: 
       - Solicitud a Camilo Acosta: Validar usuarios con ID < 50 en todas las empresas.
       - Revisión ASP Clásico / .NET FRM: Identificar código legacy para limpieza de marco.
       - Revisión OCR y nueva plantilla de diseño de productos.
-  - [11:00 AM - 12:42 PM] | 🏢 **Oficina** | Trabajo en base de datos y soporte emails (SendGrid).
-  - [12:49 PM - 04:50 PM] | 🏠 **Teletrabajo** | Micro-Sprints de Arquitectura (Caps 5-10).
+  - [11:00 AM - 12:42 PM] | 🏢 **Oficina** | Soporte técnico y base de datos.
+  - [12:49 PM - 01:05 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 1 (16 min)**: Arquitectura Udemy - Cap 5: Mantenibilidad (Video: 8:41).
+    - **Hallazgo**: Foco disperso inicialmente (10 distracciones). Necesidad de foco activo.
+  - [02:27 PM - 02:43 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 2 (16 min)**: Cap 6 - Sistemas a Gran Escala (Video: 12:37).
+    - **Reflexiones**: Idempotencia vital en servicios de cobro.
+  - [03:00 PM - 03:42 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 3 (42 min)**: Cap 7 - Load Balancers (Video: 8:47).
+    - **Resultado**: GSLB para SPOF y Hash de IP para afinidad.
+  - [03:43 PM - 04:03 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 4 (20 min)**: Cap 8 - API Gateway (Video: 6:59).
+    - **Reflexiones**: Centralización de Auth y Rate Limiting. Trade-off: Latencia.
+  - [04:04 PM - 04:20 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 5 (16 min)**: Cap 9 - Message Brokers (Video: 8:41).
+    - **Reflexiones**: Desacoplamiento en Cosmos (Wolverine + Bus).
+  - [04:24 PM - 04:45 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 6 (21 min)**: Cap 10 - Cachés (Video: 12:24).
+    - **Reflexiones**: Write Behind para performance, pero riesgo de pérdida de datos.
   - [04:50 PM - Fin del día] | 🏠 **Teletrabajo** | Logística familiar (Hija - Ballet).
 - **Jue 12/03**: 
   - [Todo el día] | 🏢 **Oficina** | **Ingeniería Cosmos: Capas de Infraestructura y Optimización.**
@@ -99,9 +110,6 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
     - **Pendiente**: Resolver `TypeLoadException` en `WolverinePublicEventSender`.
 - **Vie 13/03**:
   - [09:21 AM - Actualidad] | 🏢 **Oficina** | Sincronización de bitácoras y preparación para reunión SincoSoporte (10:00 AM).
-decisión clave al usar Redis.
-  - [04:45 PM - 04:50 PM] | 🏠 **Teletrabajo** | Sincronización final y cierre de la jornada.
-  - [04:50 PM - Fin del día] | 🏠 **Teletrabajo** | Logística familiar (Hija - Ballet). Cierre de sesión con victoria en productividad.
 
 ---
 
