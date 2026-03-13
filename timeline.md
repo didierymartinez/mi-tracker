@@ -80,35 +80,26 @@ Este es mi registro diario de ejecución. Aquí guardo lo que hice, lo que apren
     - **Acción**: Ajuste de lógica de validación y parsing del nuevo formato de token.
   - [02:00 PM - 06:00 PM] | 🏠 **Teletrabajo** | Diseño y planeación de **App de Integradores**.
     - **Objetivo**: Crear una plataforma para registrar aplicaciones integradoras del ERP y gestionar la generación de tokens para los diversos ERPs.
-    - **Arquitectura**: Definición inicial de estructura y flujo de autenticación entre integradores y ERPs.
-  - [09:48 PM] | 🏠 **Casa** | **Cierre de Jornada.**
-
-- **Mié 11/03**: 
-  - [09:24 AM - 10:06 AM] | 🏠 **Teletrabajo** | **Arquitectura Udemy** - Cap 1 y 2: Rendimiento.
-    - **Reflexiones**: Distinción entre Requisitos Funcionales y No Funcionales (SLA). Uso de percentiles (p95) para Tail Latency.
-  - [10:06 AM - 11:45 AM] | 🏠 **Teletrabajo** | **Arquitectura Udemy** - Cap 3: Escalabilidad.
-    - **Concepto clave**: Servicios **Stateless** y Event Sourcing como habilitadores de escalado horizontal.
-  - [11:45 AM - 12:42 PM] | 🏠 **Teletrabajo** | **Soporte Técnico** - ID: 691164 (Emails).
-    - **Resultado**: Cerrado. Se verificó en SendGrid que no hay bloqueo de cuenta. Algunos mails se enviaron ok; posible tema de Front o registros específicos.
-  - [12:49 PM - 01:05 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 1 (16 min)**: Arquitectura Udemy - Cap 5: Mantenibilidad.
-    - **Resultado**: Foco monitoreado con *stopwatch*. Hallazgo: ~10 distracciones/pensamientos intrusivos (1 cada minuto aprox). Duración total del estudio: 2x duración del video.
-    - **Reflexión**: La mente de arquitecto está muy activa. Necesidad de "Misión Activa" (Pre-Skimming) para canalizar las ideas.
-  - [02:27 PM - 02:43 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 2 (16 min)**: Cap 6 - Sistemas a Gran Escala (Video: 12:37).
-    - **Resultado**: ¡Excelente foco! Tiempo casi real (1.2x). El Pre-Skimming ayudó a canalizar la atención.
-    - **Reflexiones**: Importancia de la idempotencia en servicios de cobro y el uso de asincronismo para reportes pesados.
-  - [02:43 PM - 03:00 PM] | 🏠 **Teletrabajo** | Pausa breve (☕ Tinto).
-  - [03:00 PM - 03:42 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 3 (42 min)**: Cap 7 - Load Balancers (Video: 8:47).
-    - **Resultado**: Foco mantenido. Se identificó correctamente GSLB como solución al SPOF del balanceador y Hash de IP para afinidad.
-    - **Reflexiones**: Pasando de SPOF en servidores a redundancia con LBs.
-  - [03:43 PM - 04:03 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 4 (20 min)**: Cap 8 - API Gateway (Video: 6:59).
-    - **Resultado**: Foco mantenido. Se identificó la latencia como el compromiso (trade-off) de usar una Gateway.
-    - **Reflexiones**: Centralización de Auth y Rate Limiting para evitar duplicidad en microservicios.
-  - [04:04 PM - 04:20 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 5 (16 min)**: Cap 9 - Message Brokers (Video: 8:41).
-    - **Resultado**: ¡Cierre magistral! Foco del 100%. Identificación de Topics vs Queues y prioridad de fiabilidad en Onboarding.
-    - **Reflexiones**: El desacoplamiento en Cosmos (Wolverine + Bus) es lo que permite que el sistema sea tolerante a fallos.
-  - [04:24 PM - 04:45 PM] | 🏠 **Teletrabajo** | **Micro-Sprint 6 (21 min)**: Cap 10 - Cachés (Video: 12:24).
-    - **Resultado**: Foco del 1.6x. Gran manejo de conceptos de consistencia y estrategias de escritura (Write Behind).
-    - **Reflexiones**: El balance entre rendimiento y consistencia es la decisión clave al usar Redis.
+    - **Arq  - [09:00 AM - 11:00 AM] | 🏢 **Oficina** | **Comité de Desarrollo**.
+    - **Temas**: Socialización de nuevo token de autorización.
+    - **Tareas Pendientes**: Publicar a PROD, publicar NuGet y enviar documentación.
+    - **Otras Gestiones**: 
+      - Solicitud a Camilo Acosta: Validar usuarios con ID < 50 en todas las empresas.
+      - Revisión ASP Clásico / .NET FRM: Identificar código legacy para limpieza de marco.
+      - Revisión OCR y nueva plantilla de diseño de productos.
+  - [11:00 AM - 12:42 PM] | 🏢 **Oficina** | Trabajo en base de datos y soporte emails (SendGrid).
+  - [12:49 PM - 04:50 PM] | 🏠 **Teletrabajo** | Micro-Sprints de Arquitectura (Caps 5-10).
+  - [04:50 PM - Fin del día] | 🏠 **Teletrabajo** | Logística familiar (Hija - Ballet).
+- **Jue 12/03**: 
+  - [Todo el día] | 🏢 **Oficina** | **Ingeniería Cosmos: Capas de Infraestructura y Optimización.**
+    - **Hito 1 (Terraform)**: División de infraestructura en 4 capas (Base, Datos, Comunicación, Aplicación) con `terraform_remote_state`.
+    - **Hito 2 (CI/CD)**: Nuevo workflow en GitHub con 5 jobs y despliegue paralelo.
+    - **Hito 3 (Performance)**: Solucionado cuello de botella de Service Bus. Implementación de `sessionHandlerOptions` en `host.json`. Mejora de throughput: 8 -> 48 msgs/min (2x total).
+    - **Hito 4 (Costos)**: Auditoría de gasto ($381.94 USD). Log Analytics identificado como el 86% del costo total.
+    - **Pendiente**: Resolver `TypeLoadException` en `WolverinePublicEventSender`.
+- **Vie 13/03**:
+  - [09:21 AM - Actualidad] | 🏢 **Oficina** | Sincronización de bitácoras y preparación para reunión SincoSoporte (10:00 AM).
+decisión clave al usar Redis.
   - [04:45 PM - 04:50 PM] | 🏠 **Teletrabajo** | Sincronización final y cierre de la jornada.
   - [04:50 PM - Fin del día] | 🏠 **Teletrabajo** | Logística familiar (Hija - Ballet). Cierre de sesión con victoria en productividad.
 

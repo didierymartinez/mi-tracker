@@ -18,14 +18,16 @@
 |---|---|---|---|
 | **Deep Tech** | **C# (TDD, Unit Testing, xUnit, NSubstitute)** | Base de la calidad del ControlPlane | 🔴 CRÍTICA |
 | **Arquitectura** | **EDA, Event Sourcing (Wolverine/Marten)** | El motor del proyecto Cosmos | 🔴 CRÍTICA |
+| **Infra/FinOps** | **Optimización Log Analytics** | Representa el 86% del costo de Azure ($329) | 🔴 CRÍTICA |
+| **Security** | **Publicar Token Prod & NuGet** | Tarea pendiente del comité 11/03 | 🔴 CRÍTICA |
+| **Cosmos** | **Resolver TypeLoadException** | Bug persistente en PublicEventSender | 🔴 CRÍTICA |
 | **SaaS Architect** | Multi-Tenancy Patterns (Libro) | Diseño estratégico del ERP | 🟡 MEDIA |
-| **Frontend** | React Moderno (Hooks, Next.js) | Brecha en UI moderna | 🟡 BAJA |
 
 ---
 
 ## 📅 Próximos Compromisos
-- [ ] **Lun 09/03**: 🏢 Oficina (Sesión Cosmos).
-- [ ] **Jue 12/03**: 🏢 Oficina.
+- [x] **Mié 11/03**: 🏢 Comité de Desarrollo.
+- [x] **Jue 12/03**: 🏢 Ingeniería Cosmos.
 - [ ] **Vie 13/03 - 10:00 AM**: 🏢 Reunión SincoSoporte (Oficina).
 
 ---
