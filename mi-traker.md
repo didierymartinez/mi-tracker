@@ -65,6 +65,7 @@
 | 1 | Terminar curso de Terraform (Platzi) | 🔴 Alta | ✅ Completado |
 | 2 | Avanzar libro Multi-Tenant SaaS | 🔴 Alta | 🟡 En progreso |
 | 3 | Ver videos guardados de YouTube | 🟡 Media | ⬜ Pendiente |
+| 4 | Programar tareas/ajustes de reunión SincoSoporte del 13/03 | 🔴 Alta | ⬜ Pendiente |
 
 ---
 
