@@ -27,6 +27,7 @@ Este archivo sirve como el índice central de mis actividades. Los detalles espe
 ---
 
 ## 📊 Resúmenes Semanales
+- [Bulletin Friday - Week 2](file:///Users/didierymartinez/.gemini/antigravity/brain/f525a125-5d23-4e7f-b644-adb16e716a3b/bulletin_friday_week2.md)
 - [Bulletin Friday - Week 1](file:///Users/didierymartinez/.gemini/antigravity/brain/f525a125-5d23-4e7f-b644-adb16e716a3b/bulletin_friday_week1.md)
 
 ---
