@@ -6,6 +6,11 @@ Este archivo sirve como el índice central de mis actividades. Los detalles espe
 
 ## 🗓️ Marzo 2026
 
+### Semana 3 (Mar 16 - Mar 22)
+**Foco:** Refuerzo de Conceptos (EDA/Wolverine) y Consolidación Base ControlPlane.
+
+- [Lun 16/03](file:///Users/didierymartinez/Documents/dev_didier/logs/2026-03-16.md) - Aportes en IaC, Remote State y Bugfix SessionId en Azure Functions.
+
 ### Semana 2 (Mar 09 - Mar 15)
 **Foco:** EventCatalog, C# Profundo y Seguridad en Marco.
 
