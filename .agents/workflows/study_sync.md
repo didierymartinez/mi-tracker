@@ -2,23 +2,33 @@
 description: validación interactiva de aprendizaje (Sincronización de Cursos)
 ---
 
-Este workflow se activa cuando el usuario pega contenido desde el Bookmarklet (`--- SYNC DATA ---`).
+Este workflow se activa cuando el usuario pega un bloque `--- SYNC DATA ---` de Udemy.
 
-1. **Agradecimiento y Pausa**: 
-   - Notificar que se recibió la información de la clase.
-   - **IMPORTANTE**: No actualizar los registros todavía.
-   - Preguntar: "¡Genial! Lección capturada. Ahora, para que el conocimiento se fije bien, cuéntame en tus palabras: **¿Qué fue lo que entendiste de esta clase?**"
+## ⚠️ Contexto Crítico: Técnica de Skimming
 
-2. **Evaluación Comparativa**: 
-   - Comparar el texto del usuario ("LO QUE ENTENDÍ") con el "CONTENIDO" técnico capturado.
-   - **Acción del Agente**: 
-     - ✅ **Validar**: Confirmar lo que el usuario entendió correctamente.
-     - ⚠️ **Clarificar/Refutar**: Corregir errores conceptuales o vacíos técnicos basándose en el resumen de la clase.
-     - ❓ **Pregunta de profundidad**: Hacer una pregunta pequeña para cerrar el concepto.
+El usuario usa la técnica de **Skimming**: pega el resumen/transcripción del capítulo **ANTES de verlo** como adelanto previo al video. El bloque `--- SYNC DATA ---` llega en ese momento.
 
-3. **Consolidación**:
-   - Una vez el usuario y el agente están de acuerdo en el concepto, proceder a:
-     - Actualizar `mi-traker.md` con el nuevo capítulo.
-     - Actualizar la fuente maestra `📔 Mis Apuntes: ...` en NotebookLM.
-     - Registrar el bloque de tiempo en `timeline.md`.
-     - Hacer `commit` y `push` a GitHub.
+Por lo tanto, cuando se recibe un bloque `--- SYNC DATA ---`:
+- El capítulo está **"En progreso"** (🟡), NO completado.
+- NO preguntar qué entendió (aún no lo vio).
+- NUNCA marcar el capítulo como completado (✅) hasta que el usuario lo confirme explícitamente.
+
+---
+
+## Pasos del Workflow (siempre en este orden)
+
+// turbo-all
+
+1. **Guardar la transcripción en NotebookLM**
+   - Notebook destino: `🎓 Curso Udemy: Arquitectura de Sistemas (Transcripciones)` (ID: `310240db-9726-421f-b276-2f29c8d53695`)
+   - Título de la fuente: `Capítulo N: [Nombre de la lección] (Full Transcript)`
+   - Incluir los conceptos clave condensados del contenido.
+
+2. **Actualizar `mi-traker.md`**
+   - Cambiar el capítulo actual del curso al nuevo número → estado `🟡 En progreso`.
+
+3. **Hacer `git commit` y `git push`** desde `/Users/didierymartinez/Documents/dev_didier` con mensaje: `track: cap N udemy ([tema]) en progreso`
+
+4. **Responder al usuario** con:
+   - Confirmación de lo guardado.
+   - Resumen muy breve del capítulo (3-5 puntos clave) para que vea el video con contexto.
