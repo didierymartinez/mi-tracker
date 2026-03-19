@@ -17,10 +17,10 @@
 | Área | Hueco / Deuda | Por qué importa | Prioridad |
 |---|---|---|---|
 | **Deep Tech** | **C# (TDD, Unit Testing, xUnit, NSubstitute)** | Base de la calidad del ControlPlane | 🔴 CRÍTICA |
-| **Arquitectura** | **EDA, Event Sourcing (Wolverine/Marten)** | El motor del proyecto Cosmos | 🔴 CRÍTICA |
+| **Arquitectura** | **EDA, Event Sourcing (Wolverine/Marten)** | Motor del proyecto Cosmos — Avanzando con Dometrain Workshop | 🟡 MEDIA |
 | **Infra/FinOps** | **Optimización Log Analytics** | Representa el 86% del costo de Azure ($329) | 🔴 CRÍTICA |
 | **Security** | **Publicar Token Prod & NuGet** | Tarea pendiente del comité 11/03 | 🔴 CRÍTICA |
-| **Cosmos** | **Resolver TypeLoadException** | Bug persistente en PublicEventSender | 🔴 CRÍTICA |
+| **Cosmos** | **Resolver TypeLoadException** | Bug persistente en WolverinePublicEventSender | 🔴 CRÍTICA |
 | **SaaS Architect** | Multi-Tenancy Patterns (Libro) | Diseño estratégico del ERP | 🟡 MEDIA |
 
 ---
@@ -28,7 +28,9 @@
 ## 📅 Próximos Compromisos
 - [x] **Mié 11/03**: 🏢 Comité de Desarrollo.
 - [x] **Jue 12/03**: 🏢 Ingeniería Cosmos.
-- [ ] **Vie 13/03 - 10:00 AM**: 🏢 Reunión SincoSoporte (Oficina).
+- [x] **Vie 13/03**: 🏢 Reunión SincoSoporte + IaC ApplicationPlane & ObligacionesPorPagar.
+- [x] **Lun 16/03**: 🏢 Cosmos: Remote State + Azure Function HandleTenantProvisioning.
+- [x] **Mar-Mié 17-18/03**: 🏠 Workshop Event Sourcing (Aggregate Root + Command Handler).
 
 ---
 
@@ -46,6 +48,7 @@
 |---|-------|------------|----------------|--------|
 | 1 | Terraform | Platzi | 23 | ✅ Completado |
 | 2 | Diseño de Sistemas a Gran Escala | Udemy | 10 | ✅ Completado |
+| 3 | Event Sourcing con Marten & .NET | Dometrain | 6 (Command Handler) | 🟡 En progreso |
 
 ---
 
@@ -66,6 +69,8 @@
 | 2 | Avanzar libro Multi-Tenant SaaS | 🔴 Alta | 🟡 En progreso |
 | 3 | Ver videos guardados de YouTube | 🟡 Media | ⬜ Pendiente |
 | 4 | Programar tareas/ajustes de reunión SincoSoporte del 13/03 | 🔴 Alta | ⬜ Pendiente |
+| 5 | Completar Workshop Dometrain (Secciones 7-12) | 🔴 Alta | 🟡 En progreso |
+| 6 | Resolver TypeLoadException en WolverinePublicEventSender (Cosmos) | 🔴 Alta | ⬜ Pendiente |
 
 ---
 
