@@ -11,7 +11,7 @@ Este archivo sirve como el índice central de mis actividades. Los detalles espe
 
 - [Lun 23/03](logs/2026-03-23.md) - Día Festivo.
 - [Mar 24/03](logs/2026-03-24.md) - ES Workshop: Marten, Docker y Dependency Injection.
-- [Mié 25/03](logs/2026-03-25.md) - *Pendiente de reporte*.
+- [Mié 25/03](logs/2026-03-25.md) - Goldenberry:| **Security** | **Publicar Token Prod & NuGet** | Paquete NuGet Protector de Rutas publicado (25/03) | ✅ COMPLETADO |
 - [Jue 26/03](logs/2026-03-26.md) - *En curso (Hoy)*.
 
 ### Semana 3 (Mar 16 - Mar 22)
