@@ -19,7 +19,7 @@
 | **Deep Tech** | **C# (TDD, Unit Testing, xUnit, NSubstitute)** | Base de la calidad del ControlPlane | 🔴 CRÍTICA |
 | **Arquitectura** | **EDA, Event Sourcing (Wolverine/Marten)** | Motor del proyecto Cosmos — Avanzando con Dometrain Workshop | 🟡 MEDIA |
 | **Infra/FinOps** | **Optimización Log Analytics** | Representa el 86% del costo de Azure ($329) | 🔴 CRÍTICA |
-| **Security** | **Publicar Token Prod & NuGet** | Tarea pendiente del comité 11/03 | 🔴 CRÍTICA |
+| **Security** | **Publicar Token Prod & NuGet** | Paquete NuGet Protector de Rutas (25/03) | ✅ COMPLETADO |
 | **Cosmos** | **Resolver TypeLoadException** | Bug persistente en WolverinePublicEventSender | 🔴 CRÍTICA |
 | **SaaS Architect** | Multi-Tenancy Patterns (Libro) | Diseño estratégico del ERP | 🟡 MEDIA |
 
