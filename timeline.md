@@ -12,6 +12,8 @@ Este archivo sirve como el índice central de mis actividades. Los detalles espe
 - [Lun 16/03](file:///Users/didierymartinez/Documents/dev_didier/logs/2026-03-16.md) - Aportes en IaC, Remote State y Bugfix SessionId en Azure Functions.
 - [Mar 17/03](logs/2026-03-17.md) - Workshop ES: Aggregate Root (Jhon y su biografía).
 - [Mié 18/03](logs/2026-03-18.md) - Workshop ES: Reestructuración y Command Handler (El Biógrafo).
+- [Jue 19/03](logs/2026-03-19.md) - Integración WorkOS (Identidad) y Pruebas E2E con Service Bus real.
+- [Vie 20/03](logs/2026-03-20.md) - Refactor de secretos en Terraform y cierre de semana.
 
 ### Semana 2 (Mar 09 - Mar 15)
 **Foco:** EventCatalog, C# Profundo y Seguridad en Marco.
@@ -34,6 +36,7 @@ Este archivo sirve como el índice central de mis actividades. Los detalles espe
 ---
 
 ## 📊 Resúmenes Semanales
+- [Bulletin Friday - Week 3](reports/bulletin_friday_week3.md)
 - [Bulletin Friday - Week 2](reports/bulletin_friday_week2.md)
 - [Bulletin Friday - Week 1](reports/bulletin_friday_week1.md)
 
