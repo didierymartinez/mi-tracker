@@ -4,7 +4,15 @@ Este archivo sirve como el índice central de mis actividades. Los detalles espe
 
 ---
 
-## 🗓️ Marzo 2026
+## 📅 Línea de Tiempo
+
+### Semana 4 (Mar 23 - Mar 29)
+**Foco:** Persistencia Real (Marten) y Consolidación de Calidad.
+
+- [Lun 23/03](logs/2026-03-23.md) - Día Festivo.
+- [Mar 24/03](logs/2026-03-24.md) - ES Workshop: Marten, Docker y Dependency Injection.
+- [Mié 25/03](logs/2026-03-25.md) - *Pendiente de reporte*.
+- [Jue 26/03](logs/2026-03-26.md) - *En curso (Hoy)*.
 
 ### Semana 3 (Mar 16 - Mar 22)
 **Foco:** Refuerzo de Conceptos (EDA/Wolverine) y Consolidación Base ControlPlane.
