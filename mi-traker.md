@@ -47,7 +47,7 @@
 | # | Curso | Plataforma | Capítulo actual | Estado |
 |---|-------|------------|----------------|--------|
 | 1 | Terraform | Platzi | 23 | ✅ Completado |
-| 2 | Diseño de Sistemas a Gran Escala | Udemy | 18 (Teorema CAP) | 🟡 En progreso |
+| 2 | Diseño de Sistemas a Gran Escala | Udemy | 18 | ✅ Completado |
 | 3 | Event Sourcing con Marten & .NET | Dometrain | 6 (Command Handler) | 🟡 En progreso |
 
 ---
