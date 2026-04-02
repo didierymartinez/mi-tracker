@@ -47,7 +47,7 @@
 | # | Curso | Plataforma | Capítulo actual | Estado |
 |---|-------|------------|----------------|--------|
 | 1 | Terraform | Platzi | 23 | ✅ Completado |
-| 2 | Diseño de Sistemas a Gran Escala | Udemy | 15 | ✅ Completado |
+| 2 | Diseño de Sistemas a Gran Escala | Udemy | 16 (Replicación de Datos) | 🟡 En progreso |
 | 3 | Event Sourcing con Marten & .NET | Dometrain | 6 (Command Handler) | 🟡 En progreso |
 
 ---
