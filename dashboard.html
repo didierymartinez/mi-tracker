@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panel de Evolución — Didier</title>
+<style>
+:root{ color-scheme: light; --bg:#f6f7f9; --card:#ffffff; --ink:#1a1d21; --muted:#6b7280;
+  --line:#e6e8eb; --accent:#4f46e5; --accent2:#0ea5e9; --red:#dc2626; --amber:#d97706;
+  --green:#16a34a; --soft:#eef2ff; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:20px}
+.wrap{max-width:1080px;margin:0 auto;display:grid;gap:16px}
+h1{font-size:22px;margin:0}
+h2{font-size:15px;margin:0 0 12px;letter-spacing:.02em;text-transform:uppercase;color:var(--muted)}
+.row{display:grid;gap:16px}
+@media(min-width:760px){.cols-2{grid-template-columns:1fr 1fr}.cols-3{grid-template-columns:1fr 1fr 1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+.muted{color:var(--muted)}
+.pill{display:inline-block;padding:2px 10px;border-radius:999px;font-size:12px;font-weight:600}
+.pill.red{background:#fee2e2;color:var(--red)}.pill.amber{background:#fef3c7;color:var(--amber)}
+.pill.green{background:#dcfce7;color:var(--green)}.pill.soft{background:var(--soft);color:var(--accent)}
+/* minimo banner */
+.minimo{background:linear-gradient(135deg,#4f46e5,#0ea5e9);color:#fff;border:none}
+.minimo h1{color:#fff}.minimo .muted{color:#dbeafe}
+.chk{display:flex;align-items:center;gap:10px;margin-top:12px;cursor:pointer;font-weight:600}
+.chk input{width:22px;height:22px;accent-color:#fff;cursor:pointer}
+/* timer */
+.timer-display{font-size:64px;font-weight:800;text-align:center;font-variant-numeric:tabular-nums;letter-spacing:-.02em;margin:6px 0}
+.timer-controls{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:6px}
+button{font:inherit;font-weight:600;border:1px solid var(--line);background:#fff;color:var(--ink);padding:9px 16px;border-radius:10px;cursor:pointer;transition:.12s}
+button:hover{border-color:var(--accent);color:var(--accent)}
+button.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+button.primary:hover{filter:brightness(1.08);color:#fff}
+.target{display:flex;gap:8px;align-items:center;justify-content:center;margin-top:4px}
+.target input{width:64px;text-align:center;padding:6px;border-radius:8px;border:1px solid var(--line);font:inherit}
+.dots{display:flex;gap:8px;justify-content:center;margin-top:14px}
+.dot{width:16px;height:16px;border-radius:50%;background:var(--line)}
+.dot.on{background:var(--accent)}
+.loopcount{text-align:center;margin-top:10px;font-weight:700;font-size:18px}
+/* progress */
+.bar{height:9px;background:var(--line);border-radius:99px;overflow:hidden;margin-top:6px}
+.bar>span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.item{padding:11px 0;border-bottom:1px solid var(--line)}.item:last-child{border:none}
+.item .t{display:flex;justify-content:space-between;gap:10px;font-weight:600}
+.debt{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}.debt:last-child{border:none}
+.debt .ico{font-size:18px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.foot{text-align:center;color:var(--muted);font-size:12.5px;padding:4px}
+.tag{font-size:12px;color:var(--muted)}
+.plan li{margin:4px 0}
+.quote{font-style:italic;color:var(--muted);text-align:center;margin-top:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="card minimo">
+    <div class="head">
+      <div>
+        <h1 id="greet">Hola, Didier 👋</h1>
+        <div class="muted" id="today"></div>
+      </div>
+      <div style="text-align:right">
+        <div class="tag" style="color:#dbeafe">Foco de hoy</div>
+        <div style="font-size:18px;font-weight:700" id="focusTheme">—</div>
+      </div>
+    </div>
+    <label class="chk"><input type="checkbox" id="minChk"><span>El mínimo de hoy: <b>1 Loop completado</b> (anti-procrastinación)</span></label>
+    <div class="quote" style="color:#dbeafe;text-align:left;margin-top:8px">"Consistencia &gt; intensidad. Todos los días un poco."</div>
+  </div>
+
+  <div class="row cols-2">
+    <!-- TIMER -->
+    <div class="card">
+      <h2>⏱️ Timer Sprint / Loop</h2>
+      <div class="target">
+        <span class="muted">Meta del Loop:</span>
+        <input type="number" id="targetMin" value="8" min="1" max="60"> <span class="muted">min</span>
+      </div>
+      <div class="timer-display" id="disp">08:00</div>
+      <div class="timer-controls">
+        <button class="primary" id="startBtn">▶ Iniciar</button>
+        <button id="pauseBtn">⏸ Pausar</button>
+        <button id="resetBtn">↺ Reset</button>
+        <button id="doneBtn">✓ Cerrar Loop</button>
+      </div>
+      <div class="dots" id="dots"></div>
+      <div class="loopcount"><span id="loopN">0</span> Loops hoy · Sprint <span id="sprintN">1</span></div>
+      <div class="muted" style="text-align:center;margin-top:8px;font-size:12.5px">Al cerrar cada Loop: valida con 2-3 preguntas lo que viste.</div>
+    </div>
+
+    <!-- PLAN HOY -->
+    <div class="card">
+      <h2>📋 Plan de hoy</h2>
+      <ul class="plan" id="planList" style="margin:0;padding-left:18px"></ul>
+      <div class="muted" style="margin-top:10px;font-size:12.5px">Tiempo variable: si el día aprieta, cae al mínimo (1 Loop). Si fluye, encadena un Sprint.</div>
+    </div>
+  </div>
+
+  <!-- PROGRESO CURSOS -->
+  <div class="card">
+    <div class="head"><h2>📹 Progreso de cursos</h2><span class="tag" id="lastUpd"></span></div>
+    <div id="courses"></div>
+  </div>
+
+  <div class="row cols-2">
+    <!-- DEUDA -->
+    <div class="card">
+      <h2>🚩 Deuda técnica crítica</h2>
+      <div id="debt"></div>
+    </div>
+    <!-- VIDEOS -->
+    <div class="card">
+      <h2>🎬 Metas de videos</h2>
+      <div id="videos"></div>
+    </div>
+  </div>
+
+  <div class="foot" id="foot"></div>
+</div>
+
+<script>
+const DATA = {
+  lastUpdated: "2026-05-25",
+  focusByDay: {
+    0:{theme:"Repaso libre + Videos EDA", blocks:["Repaso C# de la semana","Ver 1 video EDA pendiente","Libre"]},
+    1:{theme:"EDA / Message Bus", blocks:["30m C# (Exercism)","45m EDA / Service Bus en Cosmos","Curso o libro"]},
+    2:{theme:"Wolverine / Marten", blocks:["30m C# (Exercism)","45m Event Sourcing (Marten)","EventCatalog"]},
+    3:{theme:"Reverse-engineering del repo Cosmos", blocks:["30m C# (Exercism)","45m leer un commit real de Cosmos","Curso Azure"]},
+    4:{theme:"Event Sourcing + SaaS", blocks:["30m C# (Exercism)","45m Aggregate Root / Proyecciones","Libro Multi-Tenant SaaS"]},
+    5:{theme:"TDD / Testing", blocks:["30m C# (Exercism)","45m xUnit + NSubstitute","Curso Azure (cerrar Sprint 10)"]},
+    6:{theme:"Repaso Cosmos + workshop", blocks:["Responder las 9 preguntas del workshop","Repaso patrones maratón Azure","Libro SaaS"]}
+  },
+  courses: [
+    {name:"Cloud Architecture in Azure (Dometrain)", detail:"Sprint 10 · Video 2/3 — retomar", pct:80, pill:["red","Alta"]},
+    {name:"Event Sourcing con Marten & .NET (Dometrain)", detail:"Cap. 6 → meta cap. 12", pct:50, pill:["amber","Media"]},
+    {name:"Building Multi-Tenant SaaS (libro)", detail:"Cap. 1 — Tenant Isolation", pct:10, pill:["green","Baja"]}
+  ],
+  debt: [
+    {ico:"🔴",t:"TypeLoadException en WolverinePublicEventSender",d:"Bug persistente — atacar en junio"},
+    {ico:"🔴",t:"C# profundo (TDD, xUnit, NSubstitute)",d:"Base de calidad del ControlPlane"},
+    {ico:"🟡",t:"FinOps — Log Analytics",d:"86% del costo Azure ($329) — auditar verbose logs"}
+  ],
+  videos: [
+    {t:"YouTube QgD2q6qecOE",d:"Por identificar — renombrar al verlo",url:"https://www.youtube.com/watch?v=QgD2q6qecOE"},
+    {t:"YouTube wMFalemCtTo",d:"Por identificar — renombrar al verlo",url:"https://www.youtube.com/watch?v=wMFalemCtTo"}
+  ]
+};
+
+const $=s=>document.querySelector(s), pad=n=>String(n).padStart(2,"0");
+const today=new Date(), dKey=today.getDay();
+const dayNames=["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
+const monthNames=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+const isoToday=today.toISOString().slice(0,10);
+
+// header
+$("#today").textContent = `${dayNames[dKey]}, ${today.getDate()} de ${monthNames[today.getMonth()]} de ${today.getFullYear()}`;
+const f=DATA.focusByDay[dKey];
+$("#focusTheme").textContent=f.theme;
+$("#planList").innerHTML=f.blocks.map(b=>`<li>${b}</li>`).join("");
+$("#lastUpd").textContent="Último estado: "+DATA.lastUpdated;
+$("#foot").textContent="Panel de evolución · datos del tracker (mi-traker.md). Actualízalo con /log o desde Claude Code.";
+
+// courses, debt, videos
+$("#courses").innerHTML=DATA.courses.map(c=>`<div class="item"><div class="t"><span>${c.name}</span><span class="pill ${c.pill[0]}">${c.pill[1]}</span></div><div class="muted" style="font-size:13px">${c.detail}</div><div class="bar"><span style="width:${c.pct}%"></span></div></div>`).join("");
+$("#debt").innerHTML=DATA.debt.map(x=>`<div class="debt"><span class="ico">${x.ico}</span><div><b>${x.t}</b><div class="muted" style="font-size:13px">${x.d}</div></div></div>`).join("");
+$("#videos").innerHTML=DATA.videos.map(v=>`<div class="item"><div class="t"><a href="${v.url}" target="_blank">${v.t}</a><span class="pill soft">⬜</span></div><div class="muted" style="font-size:13px">${v.d}</div></div>`).join("");
+
+// ---- persistence (per day) ----
+const LS="evo_"+isoToday;
+let st=JSON.parse(localStorage.getItem(LS)||"{}");
+if(st.loops==null)st.loops=0; if(st.min==null)st.min=false; if(st.target==null)st.target=8;
+const save=()=>localStorage.setItem(LS,JSON.stringify(st));
+
+$("#targetMin").value=st.target;
+$("#minChk").checked=st.min;
+
+// ---- timer ----
+let total=st.target*60, remain=total, tick=null, running=false;
+function render(){ $("#disp").textContent=pad(Math.floor(remain/60))+":"+pad(remain%60);
+  const sprint=Math.floor(st.loops/3), inSprint=st.loops%3;
+  $("#loopN").textContent=st.loops; $("#sprintN").textContent=sprint+1;
+  $("#dots").innerHTML=[0,1,2].map(i=>`<div class="dot ${i<inSprint?'on':''}"></div>`).join("");
+}
+function setTarget(){ st.target=Math.max(1,parseInt($("#targetMin").value)||8); total=st.target*60; if(!running){remain=total;} save(); render(); }
+function start(){ if(running)return; running=true;
+  tick=setInterval(()=>{ remain--; if(remain<=0){ clearInterval(tick); running=false; completeLoop(true); } render(); },1000); }
+function pause(){ running=false; if(tick)clearInterval(tick); }
+function reset(){ pause(); remain=total; render(); }
+function completeLoop(auto){ pause(); st.loops++; if(!st.min){st.min=true; $("#minChk").checked=true;} remain=total; save(); render();
+  if(auto) flash("⏰ Loop terminado. Valida: ¿2-3 cosas que aprendiste?"); }
+function flash(msg){ const d=$("#disp"); const o=d.textContent; d.textContent="✓"; setTimeout(()=>d.textContent=o,700);
+  const n=document.createElement("div"); n.className="muted"; n.style.cssText="text-align:center;color:var(--green);font-weight:700;margin-top:6px"; n.textContent=msg;
+  $("#dots").after(n); setTimeout(()=>n.remove(),5000); }
+
+$("#targetMin").addEventListener("change",setTarget);
+$("#startBtn").onclick=start; $("#pauseBtn").onclick=pause; $("#resetBtn").onclick=reset;
+$("#doneBtn").onclick=()=>completeLoop(false);
+$("#minChk").addEventListener("change",e=>{st.min=e.target.checked; save();});
+render();
+</script>
+</body>
+</html>

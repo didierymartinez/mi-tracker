@@ -1,0 +1,9 @@
+# Secretos — NUNCA subir a git
+.env
+.git_token
+*.token
+secrets/
+
+# Ruido del SO / entorno
+.DS_Store
+.mcp_venv/
