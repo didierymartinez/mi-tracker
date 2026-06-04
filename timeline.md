@@ -6,6 +6,15 @@ Este archivo sirve como el índice central de mis actividades. Los detalles espe
 
 ## 📅 Línea de Tiempo
 
+### Mayo 2026 — Maratón Azure (recuperada del transcript ♻️)
+**Foco:** Cloud Architecture in Azure (Dometrain) — patrones de resiliencia, mensajería y API.
+
+- [Vie 22/05](logs/2026-05-22.md) - Sprint 3: Web-Queue-Worker (3 videos).
+- [Sáb 23/05](logs/2026-05-23.md) - Sprint 4: estilos de cómputo + decisión de no cambiar de curso (3 videos).
+- [Lun 25/05](logs/2026-05-25.md) - Maratón: Sprints 5-10 (~17 videos). Circuit Breaker, Throttling, Chattiness, CQRS, ES. Cortado en Sprint 10 · Video 2/3.
+
+> ⚠️ **Hueco de registro**: del 26/03 al 21/05 no hay entradas. Último commit a git previo a la recuperación: 05/04 (Udemy cap. 24).
+
 ### Semana 4 (Mar 23 - Mar 29)
 **Foco:** Persistencia Real (Marten) y Consolidación de Calidad.
 

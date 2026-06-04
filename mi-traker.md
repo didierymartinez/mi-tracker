@@ -34,6 +34,26 @@
 
 ---
 
+## 🎯 Foco de Junio 2026 — Cosmos / EDA
+
+> **Norte del mes:** consolidar el dominio de Cosmos (EDA + despliegue cloud) y cerrar lo que quedó abierto. Tiempo **variable por día**: entre semana lo que se pueda, fines de semana más. **Regla anti-procrastinación: mínimo 1 Loop al día.**
+
+| Prioridad | Meta del mes | Estado |
+|-----------|--------------|--------|
+| 🔴 | Terminar **Cloud Architecture in Azure** (retomar Sprint 10 · Video 2/3) | 🟡 En progreso |
+| 🔴 | Resolver **TypeLoadException** en WolverinePublicEventSender | ⬜ Pendiente |
+| 🟡 | Repasar el **workshop dev-to-prod** y responder las 9 preguntas de memoria | ⬜ Pendiente |
+| 🟡 | Avanzar **Event Sourcing con Marten** (Dometrain, desde cap. 6) | 🟡 En progreso |
+| 🟢 | Avanzar libro **Multi-Tenant SaaS** (Tenant Isolation, Provisioning) | 🟡 En progreso |
+
+### ⏱️ Método anti-procrastinación: Sprint / Loop
+*El mismo sistema que usaste en la maratón de mayo.*
+- **Loop** = 1 video/unidad con cronómetro y meta de tiempo. Al cerrar, validas comprensión (2-3 preguntas).
+- **Sprint** = 3 Loops seguidos. Mide desviación vs meta para detectar fatiga/distracción.
+- **Mínimo diario:** 1 Loop. Si fluye, encadenas un Sprint. *Consistencia > Intensidad.*
+
+---
+
 ## 📚 Libros
 
 | # | Libro | Capítulo actual | Total caps | Estado |
@@ -49,6 +69,8 @@
 | 1 | Terraform | Platzi | 23 | ✅ Completado |
 | 2 | Diseño de Sistemas a Gran Escala | Udemy | 24 | ✅ Completado |
 | 3 | Event Sourcing con Marten & .NET | Dometrain | 6 (Command Handler) | 🟡 En progreso |
+| 4 | Cloud Architecture in Azure | Dometrain | Sprint 10 · Video 2/3 (~23 videos vistos, Sprints 3-10) | 🟡 En progreso |
+
 
 ---
 
