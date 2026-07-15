@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: gestion_eventstore
+    environment:
+      POSTGRES_USER: gestion
+      POSTGRES_PASSWORD: dev_local_pwd # ⚠️ solo desarrollo local
+      POSTGRES_DB: gestion_eventstore
+    ports:
+      - "5432:5432"
+    volumes:
+      - eventstore_data:/var/lib/postgresql/data # los datos sobreviven al contenedor
+
+volumes:
+  eventstore_data:

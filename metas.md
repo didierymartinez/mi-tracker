@@ -11,7 +11,7 @@ Estados: ⬜ Pendiente · 🟡 En progreso · ✅ Completado · ⏸️ Pausado
 | # | Curso | Plataforma | Progreso | Prioridad | Meta | Estado |
 |---|-------|------------|----------|-----------|------|--------|
 | 1 | **Cloud Architecture in Azure** | Dometrain | Sprint 10 · Video 2/3 (~23 vistos) | 🔴 Alta | Cerrar en junio | 🟡 |
-| 2 | **Event Sourcing con Marten & .NET** | Dometrain | Cap. 6 (Command Handler) | 🟡 Media | Avanzar a cap. 12 | 🟡 |
+| 2 | **Event Sourcing con Marten & .NET** | Dometrain | ✅ *"Future, Present & Past"* (conceptual, validado 15/07) · Cap. 6 (Command Handler) | 🟡 Media | Avanzar a cap. 12 | 🟡 |
 | 3 | **Building Multi-Tenant SaaS** (libro) | — | Cap. 1 | 🟢 Baja | Tenant Isolation + Provisioning | 🟡 |
 
 ---

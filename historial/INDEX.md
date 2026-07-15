@@ -8,10 +8,14 @@
 
 | Fecha | Tema | Archivo |
 |-------|------|---------|
+| 02 Mar - 22 May | **Conversación maestra del tracker** + workshop Event Sourcing/Marten (Sección 03 Aggregate Root) | [2026-03-02_tracker-maestro-y-workshop-eventsourcing.md](2026-03-02_tracker-maestro-y-workshop-eventsourcing.md) |
 | 08-12 May | **Workshop "Cosmos: De Dev a Producción"** — diseño de los 10 labs (VNet → SaaS) | [2026-05-08_workshop-cosmos-dev-to-prod.md](2026-05-08_workshop-cosmos-dev-to-prod.md) |
 | 22 May - 04 Jun | **Maratón Azure** — Cloud Architecture in Azure (Dometrain), Sprints 3-10 | [2026-05-22_maraton-azure-architecture.md](2026-05-22_maraton-azure-architecture.md) |
+| 04 Jun | **Eventos, ACL, Envelope y procesamiento** — discusión que generó §24/§25 del workshop | [2026-06-04_conversacion-eventos-acl-envelope.md](2026-06-04_conversacion-eventos-acl-envelope.md) |
 
-📄 Consolidación de aprendizaje del workshop: [../reports/cosmos_workshop_dev_to_prod.md](../reports/cosmos_workshop_dev_to_prod.md)
+📄 Consolidaciones de aprendizaje:
+- Workshop Cosmos dev-to-prod: [../reports/cosmos_workshop_dev_to_prod.md](../reports/cosmos_workshop_dev_to_prod.md)
+- Workshop Marten + Event Sourcing: [../reports/workshop_marten_eventsourcing.md](../reports/workshop_marten_eventsourcing.md)
 
 ---
 

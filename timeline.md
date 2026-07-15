@@ -6,6 +6,11 @@ Este archivo sirve como el índice central de mis actividades. Los detalles espe
 
 ## 📅 Línea de Tiempo
 
+### Julio 2026 — Event Sourcing (workshop propio + Dometrain)
+**Foco:** madurar el workshop de Event Sourcing y estudiarlo con Loops.
+
+- [Mié 15/07](logs/2026-07-15.md) - Loop 1 ✅ Dometrain *"Future, Present & Past"* (comando=futuro, estado=presente, evento=pasado; por qué guardar eventos y no comandos). + Fixes al workshop: bug `dynamic`/accesibilidad de `Apply` (§04/§07/§03), secciones nuevas §02b Genéricos y §06b SOLID.
+
 ### Mayo 2026 — Maratón Azure (recuperada del transcript ♻️)
 **Foco:** Cloud Architecture in Azure (Dometrain) — patrones de resiliencia, mensajería y API.
 
