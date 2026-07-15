@@ -2,7 +2,7 @@
 
 > Sistema de seguimiento con prioridad, fecha objetivo y estado. La idea: convertir lo que "abro y dejo" en metas concretas con cierre. **Regla: nada se marca ✅ hasta validar comprensión (Loop cerrado).**
 
-Estados: ⬜ Pendiente · 🟡 En progreso · ✅ Completado · ⏸️ Pausado
+Estados: ⬜ Pendiente · 🟡 En progreso · ✅ Completado · ⏸️ Pausado · 🔁 Repaso (2ª+ pasada, consolidación)
 
 ---
 
@@ -11,7 +11,8 @@ Estados: ⬜ Pendiente · 🟡 En progreso · ✅ Completado · ⏸️ Pausado
 | # | Curso | Plataforma | Progreso | Prioridad | Meta | Estado |
 |---|-------|------------|----------|-----------|------|--------|
 | 1 | **Cloud Architecture in Azure** | Dometrain | Sprint 10 · Video 2/3 (~23 vistos) | 🔴 Alta | Cerrar en junio | 🟡 |
-| 2 | **Event Sourcing con Marten & .NET** | Dometrain | ✅ *"Future, Present & Past"* (conceptual, validado 15/07) · Cap. 6 (Command Handler) | 🟡 Media | Avanzar a cap. 12 | 🟡 |
+| 2 | **Event Sourcing in .NET** (fundamentos) | Dometrain | 🔁 **Repaso** · ✅ *"Future, Present & Past"* (validado 15/07) | 🟡 Media | Consolidar (2ª pasada) | 🔁 |
+| 2b | **Event Sourcing in .NET: The Deep Dive** | Dometrain | 🔁 **Repaso** (pendiente de retomar) | 🟡 Media | Consolidar (2ª pasada) | 🔁 |
 | 3 | **Building Multi-Tenant SaaS** (libro) | — | Cap. 1 | 🟢 Baja | Tenant Isolation + Provisioning | 🟡 |
 
 ---
