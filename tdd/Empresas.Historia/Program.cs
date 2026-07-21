@@ -1,25 +1,25 @@
-﻿using Marten;
-using JasperFx.Events;
+﻿// using Marten;
+// using JasperFx.Events;
 
-var store = DocumentStore.For(opts =>
-{
-    opts.Connection("Host=localhost;Port=5432;Database=gestion_eventstore;Username=gestion;Password=dev_local_pwd");
-    opts.Events.StreamIdentity = StreamIdentity.AsString;
-    opts.Events.EventNamingStyle = EventNamingStyle.SmarterTypeName;
-});
+// var store = DocumentStore.For(opts =>
+// {
+//     opts.Connection("Host=localhost;Port=5432;Database=gestion_eventstore;Username=gestion;Password=dev_local_pwd");
+//     opts.Events.StreamIdentity = StreamIdentity.AsString;
+//     opts.Events.EventNamingStyle = EventNamingStyle.SmarterTypeName;
+// });
 
-var session = store.LightweightSession();
-session.Events.StartStream<Empresa>("emp-t", new EmpresaCreada("Andes", "Nit123"));
-await session.SaveChangesAsync();
+// var session = store.LightweightSession();
+// session.Events.StartStream<Empresa>("emp-t", new EmpresaCreada("Andes", "Nit123"));
+// await session.SaveChangesAsync();
 
-var cambiar = new CambiarPlanHandler(session);
-await cambiar.Handle(new CambiarPlanCommand("emp-t", "Menor"));
+// var cambiar = new CambiarPlanHandler(session);
+// await cambiar.Handle(new CambiarPlanCommand("emp-t", "Menor"));
 
 
-var query = store.QuerySession();
-var empresa = await query.Events.AggregateStreamAsync<Empresa>("emp-t");
+// var query = store.QuerySession();
+// var empresa = await query.Events.AggregateStreamAsync<Empresa>("emp-t");
 
-Console.WriteLine(empresa!.Plan);
+// Console.WriteLine(empresa!.Plan);
 
 
 /*
@@ -50,3 +50,4 @@ var empresa1 = store.AbrirStream<Empresa>(empresaId).Get();
 Console.WriteLine($"Nombre: {empresa1.Nombre}, Nit: {empresa1.Nit}, Plan: {empresa1.Plan}, Suspendida: {empresa1.Suspendida}, Reactivada {empresa1.Reactivaciones} vez/veces");
 */
 
+Console.WriteLine("Hello");
