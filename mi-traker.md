@@ -68,7 +68,7 @@
 |---|-------|------------|----------------|--------|
 | 1 | Terraform | Platzi | 23 | ✅ Completado |
 | 2 | Diseño de Sistemas a Gran Escala | Udemy | 24 | ✅ Completado |
-| 3 | Event Sourcing con Marten & .NET | Dometrain | 6 (Command Handler) | 🟡 En progreso |
+| 3 | Event Sourcing con Marten & .NET | Dometrain | 7 (CQRS Architecture) | 🟡 En progreso |
 | 4 | Cloud Architecture in Azure | Dometrain | Sprint 10 · Video 2/3 (~23 videos vistos, Sprints 3-10) | 🟡 En progreso |
 
 
