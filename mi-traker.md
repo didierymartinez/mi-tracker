@@ -68,7 +68,7 @@
 |---|-------|------------|----------------|--------|
 | 1 | Terraform | Platzi | 23 | ✅ Completado |
 | 2 | Diseño de Sistemas a Gran Escala | Udemy | 24 | ✅ Completado |
-| 3 | Event Sourcing con Marten & .NET | Dometrain | 15 (Introduction to the test base class) | 🟡 En progreso |
+| 3 | Event Sourcing con Marten & .NET | Dometrain | 16 (Writing event sourced tests) | 🟡 En progreso |
 | 4 | Cloud Architecture in Azure | Dometrain | Sprint 10 · Video 2/3 (~23 videos vistos, Sprints 3-10) | 🟡 En progreso |
 
 
